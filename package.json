@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/johngohrw/mdec/issues"
   },
-  "homepage": "https://github.com/johngohrw/mdec#readme"
+  "homepage": "https://github.com/johngohrw/mdec#readme",
+  "dependencies": {
+    "johnny-five": "^1.0.0"
+  }
 }
