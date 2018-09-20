@@ -1,0 +1,24 @@
+{
+  "name": "mdec",
+  "version": "1.0.0",
+  "description": "mdec grand challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johngohrw/mdec.git"
+  },
+  "keywords": [
+    "mdec",
+    "grand",
+    "challenge"
+  ],
+  "author": "rengwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johngohrw/mdec/issues"
+  },
+  "homepage": "https://github.com/johngohrw/mdec#readme"
+}
