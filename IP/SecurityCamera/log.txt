@@ -1,0 +1,3 @@
+Set light to maximum intensity at time: 19:47:42 22/9/2018
+Set light to dim intensity at time: 19:47:58 22/9/2018
+Set light to maximum intensity at time: 19:47:59 22/9/2018

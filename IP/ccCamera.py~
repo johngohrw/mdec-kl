@@ -1,0 +1,12 @@
+'''
+use cv2.imshow(<filename>, imgVariable) to see the image.
+make sure to include cv2.waitKey(0) at the end of the program.
+
+For actual usage, dont use cv2.imshow along with cv2.waitKey(0) because it jams the program.
+Instead, to use the images, just use cv2.imwrite(<filepath>, imgVar).
+
+'''
+import cv2
+import argparse as ap
+if __name__ == "__main__":
+    
