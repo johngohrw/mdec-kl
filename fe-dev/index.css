@@ -1,0 +1,95 @@
+.wrapper {
+    height: 100% !important;
+    min-height: 100vh !important;
+}
+
+.fucking-hidden {
+    display: none !important;
+}
+
+.main-panel {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.flex-branding {
+    display: flex !important;
+}
+
+.brand-spacing {
+    width: 15px;
+}
+
+.logo-container-haha {
+    height: 100%;
+    width: 100px;
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-haha {
+    height: 80%;
+    object-fit: contain;
+}
+
+.branding-text {
+    position: fixed;
+    top: 8px;
+    left: 230px;
+}
+
+.branding-text h3 {
+    font-weight: 800;
+}
+
+.navbar {
+    background-color: #dcdcdc !important;
+}
+
+.arduino-nav {
+    background-color: #a2bf5c !important;
+}
+
+.nav-left {
+    align-self: flex-start !important;
+    margin-left: 28px !important;
+    justify-content: flex-start !important;
+}
+
+.content-main {
+    flex-grow: 1 !important;
+    display: flex !important;
+    min-height: calc(100vh - 130px);
+}
+
+.content-inner {
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-pills {
+    margin-top: 15px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    flex-grow: 1;
+    margin: 15px 0 !important;
+}
+
+.card-content {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.footer {
+    padding: 0 !important;
+}
