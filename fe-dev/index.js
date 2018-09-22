@@ -168,6 +168,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
         
     });
 
+    $('.secret-button').on('click', () => {
+        console.log('woi')
+        $('.the-bright-one').removeClass('display-none')
+        $('.the-dark-one').addClass('display-none')
+
+        $('.the-dark-one').addClass('temptemptemp')
+        $('.the-dark-one').removeClass('the-dark-one')
+        $('.the-bright-one').addClass('the-dark-one')
+        $('.the-bright-one').removeClass('the-bright-one')
+        $('.temptemptemp').addClass('the-bright-one')
+        $('.temptemptemp').removeClass('temptemptemp')
+
+
+
+
+        
+
+  
+    })
+
 });
 
 

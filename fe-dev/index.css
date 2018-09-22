@@ -150,3 +150,30 @@ body {
 .card-stats {
     margin: 5px 0 !important;
 }
+
+.table>tbody#the-actual-log>tr>td {
+    padding: 4px 8px !important;
+}
+
+.card-lights {
+    height: 250px;
+}
+
+.lights-icon {
+    font-size: 72px !important;
+    top: calc(50% - 30px);
+    left: calc(50% - 36px);
+}
+
+.display-none {
+    color: #ffffff00 !important;
+}
+
+
+.secret-button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 600px;
+    right: -100px;
+}
