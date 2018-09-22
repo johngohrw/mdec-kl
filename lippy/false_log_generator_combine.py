@@ -68,8 +68,10 @@ def sequential_time_in_weekday_generator(no_of_time_entries):
     second = 1
 
     for i in range(no_of_time_entries):
-        increment_sec = randint(30,59)
-        increment_min = randint(0,30)
+        #increment_sec = randint(30,59)
+        #increment_min = randint(0,30)
+        increment_sec = randint(0, 30)
+        increment_min = randint(3, 5)
 
         minute += increment_min
         second += increment_sec
@@ -101,8 +103,8 @@ def sequential_time_in_weekend_generator(no_of_time_entries):
     second = 1
 
     for i in range(no_of_time_entries):
-        increment_sec = randint(30,59)
-        increment_min = randint(0,30)
+        increment_sec = randint(30, 59)
+        increment_min = randint(10,30)
 
         minute += increment_min
         second += increment_sec
@@ -191,7 +193,7 @@ def lightUp_randomLights(list_of_lights, log_num, date_entry, time_input, toWrit
 if __name__ == "__main__":
     log_number = 0
     date_array = ['12-02-2018', '13-02-2018', '14-02-2018', '15-02-2018', '16-02-2018']
-    car_plates = car_plates_generator(15)
+    car_plates = car_plates_generator(30)
     #car_parking_status determines whether a car is parked in the carpark or not
     #car_parking_status = [False]*len(car_plates)
     #time_entries = sequential_time_in_weekday_generator(100)
@@ -207,7 +209,7 @@ if __name__ == "__main__":
     """
     for j in range(5):
         #print('\n' + weekdays[j] + '\n')
-        time_entries = sequential_time_in_weekday_generator(100)
+        time_entries = sequential_time_in_weekday_generator(1000000)
         car_parking_status = [False]*len(car_plates)
         for i in range(len(time_entries)):
             car_selector = randint(0, len(car_plates)-1)
