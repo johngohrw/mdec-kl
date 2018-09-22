@@ -1,0 +1,168 @@
+12-02-2018 - 10:27:37 - Log: 1383 - Carplate: "WUM8170" - Event: "Entry"
+12-02-2018 - 10:27:38 - Log: 1384 - Light_ID: L43 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:27:38 - Log: 1385 - Light_ID: L44 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:27:38 - Log: 1386 - Light_ID: L45 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:27:58 - Log: 1387 - Light_ID: L43 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 10:27:58 - Log: 1388 - Light_ID: L44 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 10:27:58 - Log: 1389 - Light_ID: L45 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 10:47:18 - Log: 1390 - Carplate: "WGE4936" - Event: "Entry"
+12-02-2018 - 10:47:19 - Log: 1391 - Light_ID: L1 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:47:19 - Log: 1392 - Light_ID: L2 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:47:19 - Log: 1393 - Light_ID: L3 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 10:47:39 - Log: 1394 - Light_ID: L1 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 10:47:39 - Log: 1395 - Light_ID: L2 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 10:47:39 - Log: 1396 - Light_ID: L3 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:06:56 - Log: 1397 - Carplate: "WYU5795" - Event: "Entry"
+12-02-2018 - 11:06:57 - Log: 1398 - Light_ID: L39 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:06:57 - Log: 1399 - Light_ID: L40 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:06:57 - Log: 1400 - Light_ID: L41 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:07:17 - Log: 1401 - Light_ID: L39 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:07:17 - Log: 1402 - Light_ID: L40 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:07:17 - Log: 1403 - Light_ID: L41 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:37:51 - Log: 1404 - Carplate: "WSG5472" - Event: "Entry"
+12-02-2018 - 11:37:52 - Log: 1405 - Light_ID: L46 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:37:52 - Log: 1406 - Light_ID: L47 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:37:52 - Log: 1407 - Light_ID: L48 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:38:12 - Log: 1408 - Light_ID: L46 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:38:12 - Log: 1409 - Light_ID: L47 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:38:12 - Log: 1410 - Light_ID: L48 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:47:37 - Log: 1411 - Carplate: "WWL4675" - Event: "Entry"
+12-02-2018 - 11:47:38 - Log: 1412 - Light_ID: L22 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:47:38 - Log: 1413 - Light_ID: L23 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:47:38 - Log: 1414 - Light_ID: L24 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 11:47:58 - Log: 1415 - Light_ID: L22 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:47:58 - Log: 1416 - Light_ID: L23 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 11:47:58 - Log: 1417 - Light_ID: L24 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:18:18 - Log: 1418 - Carplate: "WJT6658" - Event: "Entry"
+12-02-2018 - 12:18:19 - Log: 1419 - Light_ID: L40 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:18:19 - Log: 1420 - Light_ID: L41 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:18:19 - Log: 1421 - Light_ID: L42 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:18:39 - Log: 1422 - Light_ID: L40 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:18:39 - Log: 1423 - Light_ID: L41 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:18:39 - Log: 1424 - Light_ID: L42 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:40:49 - Log: 1425 - Carplate: "WPV2030" - Event: "Entry"
+12-02-2018 - 12:40:50 - Log: 1426 - Light_ID: L7 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:40:50 - Log: 1427 - Light_ID: L8 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:40:50 - Log: 1428 - Light_ID: L9 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 12:41:10 - Log: 1429 - Light_ID: L7 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:41:10 - Log: 1430 - Light_ID: L8 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:41:10 - Log: 1431 - Light_ID: L9 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 12:56:19 - Log: 1432 - Carplate: "WGE4936" - Event: "Exit"
+12-02-2018 - 13:20:02 - Log: 1433 - Carplate: "WGE4936" - Event: "Entry"
+12-02-2018 - 13:20:03 - Log: 1434 - Light_ID: L24 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:20:03 - Log: 1435 - Light_ID: L25 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:20:03 - Log: 1436 - Light_ID: L26 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:20:23 - Log: 1437 - Light_ID: L24 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:20:23 - Log: 1438 - Light_ID: L25 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:20:23 - Log: 1439 - Light_ID: L26 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:30:33 - Log: 1440 - Carplate: "WPR9070" - Event: "Entry"
+12-02-2018 - 13:30:34 - Log: 1441 - Light_ID: L34 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:30:34 - Log: 1442 - Light_ID: L35 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:30:34 - Log: 1443 - Light_ID: L36 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:30:54 - Log: 1444 - Light_ID: L34 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:30:54 - Log: 1445 - Light_ID: L35 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:30:54 - Log: 1446 - Light_ID: L36 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:51:13 - Log: 1447 - Carplate: "WJL9334" - Event: "Entry"
+12-02-2018 - 13:51:14 - Log: 1448 - Light_ID: L17 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:51:14 - Log: 1449 - Light_ID: L18 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:51:14 - Log: 1450 - Light_ID: L19 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 13:51:34 - Log: 1451 - Light_ID: L17 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:51:34 - Log: 1452 - Light_ID: L18 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 13:51:34 - Log: 1453 - Light_ID: L19 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:17:57 - Log: 1454 - Carplate: "WHT4206" - Event: "Entry"
+12-02-2018 - 14:17:58 - Log: 1455 - Light_ID: L42 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:17:58 - Log: 1456 - Light_ID: L43 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:17:58 - Log: 1457 - Light_ID: L44 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:18:18 - Log: 1458 - Light_ID: L42 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:18:18 - Log: 1459 - Light_ID: L43 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:18:18 - Log: 1460 - Light_ID: L44 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:43:42 - Log: 1461 - Carplate: "WJT4552" - Event: "Entry"
+12-02-2018 - 14:43:43 - Log: 1462 - Light_ID: L26 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:43:43 - Log: 1463 - Light_ID: L27 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:43:43 - Log: 1464 - Light_ID: L28 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 14:44:03 - Log: 1465 - Light_ID: L26 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:44:03 - Log: 1466 - Light_ID: L27 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:44:03 - Log: 1467 - Light_ID: L28 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 14:51:32 - Log: 1468 - Carplate: "WJT4552" - Event: "Exit"
+12-02-2018 - 14:54:20 - Log: 1469 - Carplate: "WWL4675" - Event: "Exit"
+12-02-2018 - 15:08:09 - Log: 1470 - Carplate: "WJL9334" - Event: "Exit"
+12-02-2018 - 15:14:47 - Log: 1471 - Carplate: "WPV2030" - Event: "Exit"
+12-02-2018 - 15:28:18 - Log: 1472 - Carplate: "WHT4206" - Event: "Exit"
+12-02-2018 - 15:56:50 - Log: 1473 - Carplate: "WPR9070" - Event: "Exit"
+12-02-2018 - 16:19:49 - Log: 1474 - Carplate: "WGE4936" - Event: "Exit"
+12-02-2018 - 16:37:24 - Log: 1475 - Carplate: "WQF6484" - Event: "Entry"
+12-02-2018 - 16:37:25 - Log: 1476 - Light_ID: L38 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 16:37:25 - Log: 1477 - Light_ID: L39 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 16:37:25 - Log: 1478 - Light_ID: L40 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 16:37:45 - Log: 1479 - Light_ID: L38 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 16:37:45 - Log: 1480 - Light_ID: L39 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 16:37:45 - Log: 1481 - Light_ID: L40 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 16:56:06 - Log: 1482 - Carplate: "WSG5472" - Event: "Exit"
+12-02-2018 - 17:25:54 - Log: 1483 - Carplate: "WHT4206" - Event: "Entry"
+12-02-2018 - 17:25:55 - Log: 1484 - Light_ID: L46 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:25:55 - Log: 1485 - Light_ID: L47 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:25:55 - Log: 1486 - Light_ID: L48 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:26:15 - Log: 1487 - Light_ID: L46 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 17:26:15 - Log: 1488 - Light_ID: L47 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 17:26:15 - Log: 1489 - Light_ID: L48 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 17:46:28 - Log: 1490 - Carplate: "WLR5392" - Event: "Entry"
+12-02-2018 - 17:46:29 - Log: 1491 - Light_ID: L35 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:46:29 - Log: 1492 - Light_ID: L36 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:46:29 - Log: 1493 - Light_ID: L37 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 17:46:49 - Log: 1494 - Light_ID: L35 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 17:46:49 - Log: 1495 - Light_ID: L36 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 17:46:49 - Log: 1496 - Light_ID: L37 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:15:58 - Log: 1497 - Carplate: "WJT4552" - Event: "Entry"
+12-02-2018 - 18:15:59 - Log: 1498 - Light_ID: L3 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:15:59 - Log: 1499 - Light_ID: L4 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:15:59 - Log: 1500 - Light_ID: L5 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:16:19 - Log: 1501 - Light_ID: L3 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:16:19 - Log: 1502 - Light_ID: L4 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:16:19 - Log: 1503 - Light_ID: L5 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:25:30 - Log: 1504 - Carplate: "WJL9334" - Event: "Entry"
+12-02-2018 - 18:25:31 - Log: 1505 - Light_ID: L46 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:25:31 - Log: 1506 - Light_ID: L47 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:25:31 - Log: 1507 - Light_ID: L48 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:25:51 - Log: 1508 - Light_ID: L46 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:25:51 - Log: 1509 - Light_ID: L47 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:25:51 - Log: 1510 - Light_ID: L48 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:43:23 - Log: 1511 - Carplate: "WPV2030" - Event: "Entry"
+12-02-2018 - 18:43:24 - Log: 1512 - Light_ID: L35 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:43:24 - Log: 1513 - Light_ID: L36 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:43:24 - Log: 1514 - Light_ID: L37 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 18:43:44 - Log: 1515 - Light_ID: L35 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:43:44 - Log: 1516 - Light_ID: L36 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:43:44 - Log: 1517 - Light_ID: L37 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 18:57:20 - Log: 1518 - Carplate: "WUM8170" - Event: "Exit"
+12-02-2018 - 18:58:17 - Log: 1519 - Carplate: "WQF6484" - Event: "Exit"
+12-02-2018 - 19:20:05 - Log: 1520 - Carplate: "WJY7844" - Event: "Entry"
+12-02-2018 - 19:20:06 - Log: 1521 - Light_ID: L18 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:20:06 - Log: 1522 - Light_ID: L19 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:20:06 - Log: 1523 - Light_ID: L20 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:20:26 - Log: 1524 - Light_ID: L18 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:20:26 - Log: 1525 - Light_ID: L19 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:20:26 - Log: 1526 - Light_ID: L20 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:38:51 - Log: 1527 - Carplate: "WPR9070" - Event: "Entry"
+12-02-2018 - 19:38:52 - Log: 1528 - Light_ID: L23 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:38:52 - Log: 1529 - Light_ID: L24 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:38:52 - Log: 1530 - Light_ID: L25 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:39:12 - Log: 1531 - Light_ID: L23 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:39:12 - Log: 1532 - Light_ID: L24 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:39:12 - Log: 1533 - Light_ID: L25 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:53:22 - Log: 1534 - Carplate: "WWL4675" - Event: "Entry"
+12-02-2018 - 19:53:23 - Log: 1535 - Light_ID: L12 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:53:23 - Log: 1536 - Light_ID: L13 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:53:23 - Log: 1537 - Light_ID: L14 - Light intensity: 100% - Caused by motion: Vehicle - Energy type: Brown
+12-02-2018 - 19:53:43 - Log: 1538 - Light_ID: L12 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:53:43 - Log: 1539 - Light_ID: L13 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:53:43 - Log: 1540 - Light_ID: L14 - Light intensity: 50% - Caused by motion: null - Energy type: Brown
+12-02-2018 - 19:54:59 - Log: 1541 - Carplate: "WJL9334" - Event: "Exit"
+12-02-2018 - 20:06:21 - Log: 1542 - Carplate: "WPR9070" - Event: "Exit"
+12-02-2018 - 20:06:54 - Log: 1543 - Carplate: "WJT4552" - Event: "Exit"
+12-02-2018 - 20:07:19 - Log: 1544 - Carplate: "WYU5795" - Event: "Exit"
+12-02-2018 - 20:07:50 - Log: 1545 - Carplate: "WLR5392" - Event: "Exit"
+12-02-2018 - 20:07:50 - Log: 1546 - Carplate: "WWL4675" - Event: "Exit"
+12-02-2018 - 20:09:47 - Log: 1547 - Carplate: "WJT6658" - Event: "Exit"
+12-02-2018 - 20:10:30 - Log: 1548 - Carplate: "WJY7844" - Event: "Exit"
+12-02-2018 - 20:11:31 - Log: 1549 - Carplate: "WHT4206" - Event: "Exit"
+12-02-2018 - 20:12:19 - Log: 1550 - Carplate: "WPV2030" - Event: "Exit"
