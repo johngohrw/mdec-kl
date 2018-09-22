@@ -51,7 +51,7 @@ def hello_world():
         if isCapitalized(c) or isDigit(c):
             carPlateNum += c;
 
-    data = { "date": "13-02-2018", "time": "07:20:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
+    data = { "date": "22-09-2018", "time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
     data["Carplate"] = carPlateNum;
     carEventsRef.push(data);
 
