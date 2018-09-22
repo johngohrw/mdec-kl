@@ -25,6 +25,20 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700" rel="stylesheet">
     <!-- Arduino bullshit header -->
     <link rel="stylesheet" href="arduinoheader.css">
+    <!-- firebase bullshit -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDVsIve16dFeK2G0qaAdkr7R8H1Wk2cSRM",
+            authDomain: "mdec-5edc2.firebaseapp.com",
+            databaseURL: "https://mdec-5edc2.firebaseio.com",
+            projectId: "mdec-5edc2",
+            storageBucket: "mdec-5edc2.appspot.com",
+            messagingSenderId: "1062209013615"
+        };
+        firebase.initializeApp(config);
+    </script>
 </head>
 
 <body>
@@ -60,17 +74,17 @@
                     </li>
 
                     <li class="has-submenu level-1">
-                        <a role="button" id="statistics" data-toggle="tab" aria-expanded="false" href="#stats">Statistics</a>
+                        <a role="button" id="statistics" data-toggle="tab" aria-expanded="false" href="#statsdaily">Statistics</a>
                         <ul class="nav-submenu">
-                            <li><a data-toggle="tab" aria-expanded="false" href="#statsdaily">Daily</a></li>
-                            <li><a data-toggle="tab" aria-expanded="false" href="#statsweekly">Weekly</a></li>
-                            <li><a data-toggle="tab" aria-expanded="false" href="#statsmonthly">Monthly</a></li>
-                            <li><a data-toggle="tab" aria-expanded="false" href="#statsyearly">Yearly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" class="statsdaily" href="#statsdaily">Daily</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" class="statsweekly" href="#statsweekly">Weekly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" class="statsmonthly" href="#statsmonthly">Monthly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" class="statsyearly" href="#statsyearly">Yearly</a></li>
                         </ul>
                     </li>
 
                     <li class="has-submenu level-1" id="event-log">
-                        <a data-toggle="tab" aria-expanded="false" href="#eventlog">Event Log</a>
+                        <a data-toggle="tab" aria-expanded="false" class="eventlog" href="#eventlog">Event Log</a>
                     </li>
 
                     <li class="has-submenu level-1" id="floor-status">
@@ -113,7 +127,7 @@
                                 <div class="card card-pricing card-raised">
                                     <div class="content">
                                         <h6 class="category">Number of cars in the parking</h6>
-                                        <div class="icon icon-rose" style="height: 265px !important; display: flex; align-items: center; justify-content: center;">
+                                        <div class="icon icon-rose" style="height: 145px !important; display: flex; align-items: center; justify-content: center;">
                                             <i class="material-icons">directions_car</i>
                                         </div>
                                         <h3 class="card-title" id="data-number-of-cars">29</h3>
@@ -126,7 +140,7 @@
                                         <h6 class="category">Current average light intensity</h6>
                                         <div class="chart-wrapper">
                                             <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
-                                            <div class="ct-chart ct-square" id="chart-avg-light-intensity"></div>
+                                            <div class="ct-chart ct-major-seventh" id="chart-avg-light-intensity"></div>
                                         </div>
                                         <h3 class="card-title no-top-bottom-margin" id="data-avg-light-intensity">29</h3>
                                     </div>
@@ -135,47 +149,67 @@
                             <div class="col-lg-4">
                                 <div class="card card-pricing card-raised">
                                     <div class="content">
-                                        <h6 class="category">some widget hahahaa</h6>
+                                        <h6 class="category">Number of available bays</h6>
                                         <div class="chart-wrapper">
-                                            <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
-                                            <div class="ct-chart ct-square" id="chart-bla"></div>
+                                            <i class="material-icons put-in-middle-of-chart">local_parking</i>
+                                            <div class="ct-chart ct-major-seventh" id="chart-available-bays"></div>
                                         </div>
-                                        <h3 class="card-title no-top-bottom-margin" id="data-bla">some result</h3>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-available-bays">123/123</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="card card-pricing card-raised">
                                     <div class="content">
-                                        <h6 class="category">some widget hahahaa</h6>
+                                        <h6 class="category">total green energy used today</h6>
                                         <div class="chart-wrapper">
-                                            <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
-                                            <div class="ct-chart ct-square" id="chart-bla"></div>
+                                            <i class="material-icons put-in-middle-of-chart">local_florist</i>
+                                            <div class="ct-chart ct-major-seventh" id="chart-daily-green-energy-used"></div>
                                         </div>
-                                        <h3 class="card-title no-top-bottom-margin" id="data-bla">some result</h3>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-daily-green-energy-used">123 kWh</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-pricing card-raised">
+                                    <div class="content">
+                                        <h6 class="category">total brown energy used today</h6>
+                                        <div class="chart-wrapper">
+                                            <i class="material-icons put-in-middle-of-chart">mood_bad</i>
+                                            <div class="ct-chart ct-major-seventh" id="chart-daily-brown-energy-used"></div>
+                                        </div>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-daily-brown-energy-used">123 kWh</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Weekly Data
+                                        </h5>
+                                        <div class="chart-wrapper">
+                                            <div class="ct-chart ct-major-tenth chart-weekly-energy-line-dashboard"></div>
+                                        </div>    
                                     </div>
                                 </div>
                             </div>
 
-
-
-
-
-
-
+                    
+                            
                         </div>
-                        <div class="tab-pane card-content" id="stats">
+                        <div class="tab-pane card-content" id="statsdaily">
                             <h3 class="content-title-walao">
                                 <span class="block-text-highlighting">
-                                    STATS
+                                    TODAY'S STATISTICS
                                 </span>
                             </h3>
-                            <div class="col-lg-12">
+                            <div class="col-lg-6">
                                 <div class="card card-pricing card-raised card-stats">
                                     <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left">
-                                            Number of entries made in the last 24 hrs: 
-                                            <span id="data-daily-entries" class="highlighted-answer">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of entries: 
+                                            <span id="data-entries-daily" class="highlighted-answer">
                                                 24
                                             </span>
                                         </h5>
@@ -184,9 +218,9 @@
 
                                 <div class="card card-pricing card-raised card-stats">
                                     <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left">
-                                            Number of exits made in th last 24 hrs
-                                            <span id="data-exits-daily"class="highlighted-answer">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of exits:
+                                            <span id="data-exits-daily" class="highlighted-answer">
                                                 59
                                             </span>
                                         </h5>
@@ -195,70 +229,62 @@
 
                                 <div class="card card-pricing card-raised card-stats">
                                     <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left"
-                                            ?
-                                            <span id="data-bla"> class="highlighted-answer">
-                                                ?
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Earnings:
+                                            <span id="data-earnings-daily" class="highlighted-answer">
+                                                RM 12345
                                             </span>
                                         </h5>
                                     </div>
                                 </div>
-
-                                <div class="card card-pricing card-raised card-stats">
-                                    <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left"
-                                            ?
-                                            <span id="data-bla"> class="highlighted-answer">
-                                                ?
-                                            </span>
-                                        </h5>
-                                    </div>
-                                </div>
-
-                                <div class="card card-pricing card-raised card-stats">
-                                    <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left"
-                                            ?
-                                            <span id="data-bla"> class="highlighted-answer">
-                                                ?
-                                            </span>
-                                        </h5>
-                                    </div>
-                                </div>
-
-                                <div class="card card-pricing card-raised card-stats">
-                                    <div class="content">
-                                        <h5 class="card-title no-top-bottom-margin text-align-left"
-                                            ?
-                                            <span id="data-bla"> class="highlighted-answer">
-                                                ?
-                                            </span>
-                                        </h5>
-                                    </div>
-                                </div>
-
                                         
                             </div>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Energy Saved:
+                                            <span id="data-energy-saved-daily" class="highlighted-answer">
+                                                123 kWh
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Repeating Customers:
+                                            <span id="data-repeating-customers-daily" class="highlighted-answer">
+                                                123
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
-
-
-
-
-
-                            
-                            
-                        </div>
-                        <div class="tab-pane card-content" id="statsdaily">
-                            <h3 class="content-title-walao">
-                                <span class="block-text-highlighting">
-                                    THIS MONTH'S STATISTICS
-                                </span>
-                            </h3>
-
-
-
-
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Average park time of each car:
+                                            <span id="data-" class="highlighted-answer">
+                                                4hr 4mins
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Available Parking Bays
+                                        </h5>
+                                        <div class="chart-wrapper">
+                                            <div class="ct-chart ct-major-tenth chart-daily-parking-bays"></div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -270,11 +296,88 @@
                                     THIS WEEK'S STATISTICS
                                 </span>
                             </h3>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of entries: 
+                                            <span id="data-entries-daily" class="highlighted-answer">
+                                                24
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of exits:
+                                            <span id="data-exits-daily" class="highlighted-answer">
+                                                59
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Earnings:
+                                            <span id="data-earnings-daily" class="highlighted-answer">
+                                                RM 12345
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                        
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Energy Saved:
+                                            <span id="data-energy-saved-daily" class="highlighted-answer">
+                                                123 kWh
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Repeating Customers:
+                                            <span id="data-repeating-customers-daily" class="highlighted-answer">
+                                                123
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
-
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Average park time of each car:
+                                            <span id="data-" class="highlighted-answer">
+                                                4hr 4mins
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Weekly Data
+                                        </h5>
+                                        <div class="chart-wrapper">
+                                            <div class="ct-chart ct-major-tenth chart-weekly-energy-line"></div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                                
 
 
                             
@@ -285,7 +388,87 @@
                                     THIS MONTH'S STATISTICS
                                 </span>
                             </h3>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of entries: 
+                                            <span id="data-entries-daily" class="highlighted-answer">
+                                                24
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of exits:
+                                            <span id="data-exits-daily" class="highlighted-answer">
+                                                59
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Earnings:
+                                            <span id="data-earnings-daily" class="highlighted-answer">
+                                                RM 12345
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                        
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Energy Saved:
+                                            <span id="data-energy-saved-daily" class="highlighted-answer">
+                                                123 kWh
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Repeating Customers:
+                                            <span id="data-repeating-customers-daily" class="highlighted-answer">
+                                                123
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Average park time of each car:
+                                            <span id="data-" class="highlighted-answer">
+                                                4hr 4mins
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Monthly Data
+                                        </h5>
+                                        <div class="chart-wrapper">
+                                            <div class="ct-chart ct-major-tenth chart-monthly-energy-line"></div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -300,7 +483,75 @@
                                     THIS YEAR'S STATISTICS
                                 </span>
                             </h3>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of entries: 
+                                            <span id="data-entries-daily" class="highlighted-answer">
+                                                24
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
 
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Number of exits:
+                                            <span id="data-exits-daily" class="highlighted-answer">
+                                                59
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Earnings:
+                                            <span id="data-earnings-daily" class="highlighted-answer">
+                                                RM 12345
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                        
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Energy Saved:
+                                            <span id="data-energy-saved-daily" class="highlighted-answer">
+                                                123 kWh
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Total Repeating Customers:
+                                            <span id="data-repeating-customers-daily" class="highlighted-answer">
+                                                123
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin flex-space-between">
+                                            Average park time of each car:
+                                            <span id="data-" class="highlighted-answer">
+                                                4hr 4mins
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
@@ -315,6 +566,26 @@
                                     EVENT LOG
                                 </span>
                             </h3>
+
+                            <p>
+                                Automatically refreshes & updates every 10 seconds.
+                            </p>
+
+                            <div class="card-content">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class="text-primary">
+                                            <tr><th>LogID</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Car Plate</th>
+                                            <th>Event</th>
+                                        </tr></thead>
+                                        <tbody id="the-actual-log">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
 
 
 
@@ -447,6 +718,7 @@
 <script src="index.js" type="text/javascript"></script>
 <!--   ARDUINO'S BOOSTED JS FILES -->
 <script src="arduinoloader.js" type="text/javascript"></script>
+<script src="firebasebullshit.js" type="text/javascript"></script>
 
 <!--   Core JS Files   -->
 <script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>

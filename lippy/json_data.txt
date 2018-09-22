@@ -1,0 +1,992 @@
+{"Date": "14-02-2018", "Time": "06:04:07", "Log": "1884", "Carplate": "WFM9887", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:04:08", "Log": "1885", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:04:08", "Log": "1886", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:04:08", "Log": "1887", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:04:28", "Log": "1888", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:04:28", "Log": "1889", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:04:28", "Log": "1890", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:28", "Log": "1891", "Carplate": "WPQ5159", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:07:29", "Log": "1892", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:29", "Log": "1893", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:29", "Log": "1894", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:49", "Log": "1895", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:49", "Log": "1896", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:07:49", "Log": "1897", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:10:39", "Log": "1898", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:10:40", "Log": "1899", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:10:40", "Log": "1900", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:10:40", "Log": "1901", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:11:00", "Log": "1902", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:11:00", "Log": "1903", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:11:00", "Log": "1904", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:13:49", "Log": "1905", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "06:19:18", "Log": "1906", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:19:19", "Log": "1907", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:19:19", "Log": "1908", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:19:19", "Log": "1909", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:19:39", "Log": "1910", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:19:39", "Log": "1911", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:19:39", "Log": "1912", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:34", "Log": "1913", "Carplate": "WRZ1856", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:23:35", "Log": "1914", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:35", "Log": "1915", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:35", "Log": "1916", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:55", "Log": "1917", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:55", "Log": "1918", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:23:55", "Log": "1919", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:27:54", "Log": "1920", "Carplate": "WTZ6995", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:27:55", "Log": "1921", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:27:55", "Log": "1922", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:27:55", "Log": "1923", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:28:15", "Log": "1924", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:28:15", "Log": "1925", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:28:15", "Log": "1926", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:00", "Log": "1927", "Carplate": "WKY7886", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:33:01", "Log": "1928", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:01", "Log": "1929", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:01", "Log": "1930", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:21", "Log": "1931", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:21", "Log": "1932", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:33:21", "Log": "1933", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:00", "Log": "1934", "Carplate": "WEF7994", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:37:01", "Log": "1935", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:01", "Log": "1936", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:01", "Log": "1937", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:21", "Log": "1938", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:21", "Log": "1939", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:37:21", "Log": "1940", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:41:24", "Log": "1941", "Carplate": "WEF7994", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "06:45:43", "Log": "1942", "Carplate": "WKS2386", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:45:44", "Log": "1943", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:45:44", "Log": "1944", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:45:44", "Log": "1945", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:46:04", "Log": "1946", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:46:04", "Log": "1947", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:46:04", "Log": "1948", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:10", "Log": "1949", "Carplate": "WTX6066", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:50:11", "Log": "1950", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:11", "Log": "1951", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:11", "Log": "1952", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:31", "Log": "1953", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:31", "Log": "1954", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:50:31", "Log": "1955", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:20", "Log": "1956", "Carplate": "WXO7570", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "06:55:21", "Log": "1957", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:21", "Log": "1958", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:21", "Log": "1959", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:41", "Log": "1960", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:41", "Log": "1961", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:55:41", "Log": "1962", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "06:59:43", "Log": "1963", "Carplate": "WFM9887", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "07:02:59", "Log": "1964", "Carplate": "WFM9887", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:03:00", "Log": "1965", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:03:00", "Log": "1966", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:03:00", "Log": "1967", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:03:20", "Log": "1968", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:03:20", "Log": "1969", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:03:20", "Log": "1970", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:08:11", "Log": "1971", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "07:12:23", "Log": "1972", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:12:24", "Log": "1973", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:12:24", "Log": "1974", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:12:24", "Log": "1975", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:12:44", "Log": "1976", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:12:44", "Log": "1977", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:12:44", "Log": "1978", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:31", "Log": "1979", "Carplate": "WOC0394", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:15:32", "Log": "1980", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:32", "Log": "1981", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:32", "Log": "1982", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:52", "Log": "1983", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:52", "Log": "1984", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:15:52", "Log": "1985", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:20:47", "Log": "1986", "Carplate": "WXO7570", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "07:25:52", "Log": "1987", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:25:53", "Log": "1988", "Light_ID": "L6", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:25:53", "Log": "1989", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:25:53", "Log": "1990", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:26:13", "Log": "1991", "Light_ID": "L6", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:26:13", "Log": "1992", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:26:13", "Log": "1993", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:00", "Log": "1994", "Carplate": "WSU5580", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:30:01", "Log": "1995", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:01", "Log": "1996", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:01", "Log": "1997", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:21", "Log": "1998", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:21", "Log": "1999", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:30:21", "Log": "2000", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:10", "Log": "2001", "Carplate": "WXO7570", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:33:11", "Log": "2002", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:11", "Log": "2003", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:11", "Log": "2004", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:31", "Log": "2005", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:31", "Log": "2006", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:33:31", "Log": "2007", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:37:36", "Log": "2008", "Carplate": "WPQ5159", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "07:40:56", "Log": "2009", "Carplate": "WZC4850", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:40:57", "Log": "2010", "Light_ID": "L0", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:40:57", "Log": "2011", "Light_ID": "L1", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:40:57", "Log": "2012", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:41:17", "Log": "2013", "Light_ID": "L0", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:41:17", "Log": "2014", "Light_ID": "L1", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:41:17", "Log": "2015", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:16", "Log": "2016", "Carplate": "WEC5827", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:46:17", "Log": "2017", "Light_ID": "L44", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:17", "Log": "2018", "Light_ID": "L45", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:17", "Log": "2019", "Light_ID": "L46", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:37", "Log": "2020", "Light_ID": "L44", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:37", "Log": "2021", "Light_ID": "L45", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:46:37", "Log": "2022", "Light_ID": "L46", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:32", "Log": "2023", "Carplate": "WMH5972", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "07:50:33", "Log": "2024", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:33", "Log": "2025", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:33", "Log": "2026", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:53", "Log": "2027", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:53", "Log": "2028", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:50:53", "Log": "2029", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "07:54:42", "Log": "2030", "Carplate": "WXO7570", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:00:12", "Log": "2031", "Carplate": "WKY7886", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:04:39", "Log": "2032", "Carplate": "WSU5580", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:08:45", "Log": "2033", "Carplate": "WOC0394", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:13:54", "Log": "2034", "Carplate": "WFM9887", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:18:55", "Log": "2035", "Carplate": "WOC0394", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:18:56", "Log": "2036", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:18:56", "Log": "2037", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:18:56", "Log": "2038", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:19:16", "Log": "2039", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:19:16", "Log": "2040", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:19:16", "Log": "2041", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:22:12", "Log": "2042", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:25:20", "Log": "2043", "Carplate": "WSW0312", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:25:21", "Log": "2044", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:25:21", "Log": "2045", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:25:21", "Log": "2046", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:25:41", "Log": "2047", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:25:41", "Log": "2048", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:25:41", "Log": "2049", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:26", "Log": "2050", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:28:27", "Log": "2051", "Light_ID": "L6", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:27", "Log": "2052", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:27", "Log": "2053", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:47", "Log": "2054", "Light_ID": "L6", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:47", "Log": "2055", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:28:47", "Log": "2056", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:32:27", "Log": "2057", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:36:57", "Log": "2058", "Carplate": "WOC1439", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "08:41:59", "Log": "2059", "Carplate": "WXP9888", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:42:00", "Log": "2060", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:42:00", "Log": "2061", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:42:00", "Log": "2062", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:42:20", "Log": "2063", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:42:20", "Log": "2064", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:42:20", "Log": "2065", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:21", "Log": "2066", "Carplate": "WSU5580", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:46:22", "Log": "2067", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:22", "Log": "2068", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:22", "Log": "2069", "Light_ID": "L34", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:42", "Log": "2070", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:42", "Log": "2071", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:46:42", "Log": "2072", "Light_ID": "L34", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:51:48", "Log": "2073", "Carplate": "WKY7886", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "08:51:49", "Log": "2074", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:51:49", "Log": "2075", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:51:49", "Log": "2076", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:52:09", "Log": "2077", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:52:09", "Log": "2078", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:52:09", "Log": "2079", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "08:55:52", "Log": "2080", "Carplate": "WSW0312", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:01:08", "Log": "2081", "Carplate": "WTZ6995", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:04:38", "Log": "2082", "Carplate": "WZC4850", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:07:58", "Log": "2083", "Carplate": "WMH5972", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:12:26", "Log": "2084", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:12:27", "Log": "2085", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:12:27", "Log": "2086", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:12:27", "Log": "2087", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:12:47", "Log": "2088", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:12:47", "Log": "2089", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:12:47", "Log": "2090", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:16:47", "Log": "2091", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:16:48", "Log": "2092", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:16:48", "Log": "2093", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:16:48", "Log": "2094", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:17:08", "Log": "2095", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:17:08", "Log": "2096", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:17:08", "Log": "2097", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:06", "Log": "2098", "Carplate": "WMP3061", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:20:07", "Log": "2099", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:07", "Log": "2100", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:07", "Log": "2101", "Light_ID": "L43", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:27", "Log": "2102", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:27", "Log": "2103", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:20:27", "Log": "2104", "Light_ID": "L43", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:34", "Log": "2105", "Carplate": "WCR4714", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:23:35", "Log": "2106", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:35", "Log": "2107", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:35", "Log": "2108", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:55", "Log": "2109", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:55", "Log": "2110", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:23:55", "Log": "2111", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:00", "Log": "2112", "Carplate": "WSW0312", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:29:01", "Log": "2113", "Light_ID": "L44", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:01", "Log": "2114", "Light_ID": "L45", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:01", "Log": "2115", "Light_ID": "L46", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:21", "Log": "2116", "Light_ID": "L44", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:21", "Log": "2117", "Light_ID": "L45", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:29:21", "Log": "2118", "Light_ID": "L46", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:34:28", "Log": "2119", "Carplate": "WEC5827", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:38:42", "Log": "2120", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:38:43", "Log": "2121", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:38:43", "Log": "2122", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:38:43", "Log": "2123", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:39:03", "Log": "2124", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:39:03", "Log": "2125", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:39:03", "Log": "2126", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:42:49", "Log": "2127", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:42:50", "Log": "2128", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:42:50", "Log": "2129", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:42:50", "Log": "2130", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:43:10", "Log": "2131", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:43:10", "Log": "2132", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:43:10", "Log": "2133", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:12", "Log": "2134", "Carplate": "WBK9866", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:48:13", "Log": "2135", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:13", "Log": "2136", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:13", "Log": "2137", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:33", "Log": "2138", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:33", "Log": "2139", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:48:33", "Log": "2140", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:52:30", "Log": "2141", "Carplate": "WTX6066", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "09:55:59", "Log": "2142", "Carplate": "WTZ6995", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "09:56:00", "Log": "2143", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:56:00", "Log": "2144", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:56:00", "Log": "2145", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:56:20", "Log": "2146", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:56:20", "Log": "2147", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "09:56:20", "Log": "2148", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:00:59", "Log": "2149", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:03:59", "Log": "2150", "Carplate": "WXO7570", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "10:04:00", "Log": "2151", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:04:00", "Log": "2152", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:04:00", "Log": "2153", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:04:20", "Log": "2154", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:04:20", "Log": "2155", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:04:20", "Log": "2156", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:07:26", "Log": "2157", "Carplate": "WMP3061", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:12:37", "Log": "2158", "Carplate": "WNW7646", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "10:12:38", "Log": "2159", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:12:38", "Log": "2160", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:12:38", "Log": "2161", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:12:58", "Log": "2162", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:12:58", "Log": "2163", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:12:58", "Log": "2164", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:16:45", "Log": "2165", "Carplate": "WXP9888", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:19:59", "Log": "2166", "Carplate": "WSU5580", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:23:22", "Log": "2167", "Carplate": "WKY7886", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:28:45", "Log": "2168", "Carplate": "WCR4714", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:34:12", "Log": "2169", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:38:14", "Log": "2170", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:41:16", "Log": "2171", "Carplate": "WKY9311", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "10:41:17", "Log": "2172", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:41:17", "Log": "2173", "Light_ID": "L4", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:41:17", "Log": "2174", "Light_ID": "L5", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:41:37", "Log": "2175", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:41:37", "Log": "2176", "Light_ID": "L4", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:41:37", "Log": "2177", "Light_ID": "L5", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:46:44", "Log": "2178", "Carplate": "WCR4714", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "10:46:45", "Log": "2179", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:46:45", "Log": "2180", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:46:45", "Log": "2181", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:47:05", "Log": "2182", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:47:05", "Log": "2183", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:47:05", "Log": "2184", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:52:08", "Log": "2185", "Carplate": "WOC0394", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "10:56:20", "Log": "2186", "Carplate": "WZC4850", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "10:56:21", "Log": "2187", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:56:21", "Log": "2188", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:56:21", "Log": "2189", "Light_ID": "L4", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:56:41", "Log": "2190", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:56:41", "Log": "2191", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "10:56:41", "Log": "2192", "Light_ID": "L4", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:37", "Log": "2193", "Carplate": "WXP9888", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:00:38", "Log": "2194", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:38", "Log": "2195", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:38", "Log": "2196", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:58", "Log": "2197", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:58", "Log": "2198", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:00:58", "Log": "2199", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:05:04", "Log": "2200", "Carplate": "WNW7646", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "11:10:30", "Log": "2201", "Carplate": "WKY7886", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:10:31", "Log": "2202", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:10:31", "Log": "2203", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:10:31", "Log": "2204", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:10:51", "Log": "2205", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:10:51", "Log": "2206", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:10:51", "Log": "2207", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:13:54", "Log": "2208", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:13:55", "Log": "2209", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:13:55", "Log": "2210", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:13:55", "Log": "2211", "Light_ID": "L34", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:14:15", "Log": "2212", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:14:15", "Log": "2213", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:14:15", "Log": "2214", "Light_ID": "L34", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:18:17", "Log": "2215", "Carplate": "WRZ1856", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "11:22:22", "Log": "2216", "Carplate": "WCR4714", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "11:26:35", "Log": "2217", "Carplate": "WEC5827", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:26:36", "Log": "2218", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:26:36", "Log": "2219", "Light_ID": "L48", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:26:36", "Log": "2220", "Light_ID": "L49", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:26:56", "Log": "2221", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:26:56", "Log": "2222", "Light_ID": "L48", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:26:56", "Log": "2223", "Light_ID": "L49", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:04", "Log": "2224", "Carplate": "WRZ1856", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:30:05", "Log": "2225", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:05", "Log": "2226", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:05", "Log": "2227", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:25", "Log": "2228", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:25", "Log": "2229", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:30:25", "Log": "2230", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:33:25", "Log": "2231", "Carplate": "WKS2386", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "11:37:28", "Log": "2232", "Carplate": "WBK9866", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "11:42:48", "Log": "2233", "Carplate": "WMH5972", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:42:49", "Log": "2234", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:42:49", "Log": "2235", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:42:49", "Log": "2236", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:43:09", "Log": "2237", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:43:09", "Log": "2238", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:43:09", "Log": "2239", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:15", "Log": "2240", "Carplate": "WMP3061", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:47:16", "Log": "2241", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:16", "Log": "2242", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:16", "Log": "2243", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:36", "Log": "2244", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:36", "Log": "2245", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:47:36", "Log": "2246", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:35", "Log": "2247", "Carplate": "WPQ5159", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:51:36", "Log": "2248", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:36", "Log": "2249", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:36", "Log": "2250", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:56", "Log": "2251", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:56", "Log": "2252", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:51:56", "Log": "2253", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:54:41", "Log": "2254", "Carplate": "WFM9887", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:54:42", "Log": "2255", "Light_ID": "L45", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:54:42", "Log": "2256", "Light_ID": "L46", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:54:42", "Log": "2257", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:55:02", "Log": "2258", "Light_ID": "L45", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:55:02", "Log": "2259", "Light_ID": "L46", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:55:02", "Log": "2260", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:03", "Log": "2261", "Carplate": "WBK9866", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "11:58:04", "Log": "2262", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:04", "Log": "2263", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:04", "Log": "2264", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:24", "Log": "2265", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:24", "Log": "2266", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "11:58:24", "Log": "2267", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:19", "Log": "2268", "Carplate": "WSU5580", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:01:20", "Log": "2269", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:20", "Log": "2270", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:20", "Log": "2271", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:40", "Log": "2272", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:40", "Log": "2273", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:01:40", "Log": "2274", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:30", "Log": "2275", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:06:31", "Log": "2276", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:31", "Log": "2277", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:31", "Log": "2278", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:51", "Log": "2279", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:51", "Log": "2280", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:06:51", "Log": "2281", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:00", "Log": "2282", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:10:01", "Log": "2283", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:01", "Log": "2284", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:01", "Log": "2285", "Light_ID": "L4", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:21", "Log": "2286", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:21", "Log": "2287", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:10:21", "Log": "2288", "Light_ID": "L4", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:14:15", "Log": "2289", "Carplate": "WPQ5159", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "12:18:22", "Log": "2290", "Carplate": "WOC0394", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:18:23", "Log": "2291", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:18:23", "Log": "2292", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:18:23", "Log": "2293", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:18:43", "Log": "2294", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:18:43", "Log": "2295", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:18:43", "Log": "2296", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:23:26", "Log": "2297", "Carplate": "WMP3061", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "12:28:30", "Log": "2298", "Carplate": "WNW7646", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:28:31", "Log": "2299", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:28:31", "Log": "2300", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:28:31", "Log": "2301", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:28:51", "Log": "2302", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:28:51", "Log": "2303", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:28:51", "Log": "2304", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:31:55", "Log": "2305", "Carplate": "WXP9888", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "12:37:23", "Log": "2306", "Carplate": "WOC1439", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "12:42:26", "Log": "2307", "Carplate": "WXO7570", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "12:47:40", "Log": "2308", "Carplate": "WMA3798", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:47:41", "Log": "2309", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:47:41", "Log": "2310", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:47:41", "Log": "2311", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:48:01", "Log": "2312", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:48:01", "Log": "2313", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:48:01", "Log": "2314", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:51:45", "Log": "2315", "Carplate": "WTX6066", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "12:51:46", "Log": "2316", "Light_ID": "L43", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:51:46", "Log": "2317", "Light_ID": "L44", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:51:46", "Log": "2318", "Light_ID": "L45", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:52:06", "Log": "2319", "Light_ID": "L43", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:52:06", "Log": "2320", "Light_ID": "L44", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:52:06", "Log": "2321", "Light_ID": "L45", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "12:56:00", "Log": "2322", "Carplate": "WZC4850", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:00:26", "Log": "2323", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:05:46", "Log": "2324", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:08:53", "Log": "2325", "Carplate": "WXO7570", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:08:54", "Log": "2326", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:08:54", "Log": "2327", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:08:54", "Log": "2328", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:09:14", "Log": "2329", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:09:14", "Log": "2330", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:09:14", "Log": "2331", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:14:17", "Log": "2332", "Carplate": "WOC0394", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:19:17", "Log": "2333", "Carplate": "WFM9887", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:22:25", "Log": "2334", "Carplate": "WOC0394", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:22:26", "Log": "2335", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:22:26", "Log": "2336", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:22:26", "Log": "2337", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:22:46", "Log": "2338", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:22:46", "Log": "2339", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:22:46", "Log": "2340", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:35", "Log": "2341", "Carplate": "WEF7994", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:27:36", "Log": "2342", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:36", "Log": "2343", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:36", "Log": "2344", "Light_ID": "L43", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:56", "Log": "2345", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:56", "Log": "2346", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:27:56", "Log": "2347", "Light_ID": "L43", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:31:01", "Log": "2348", "Carplate": "WEF7994", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:34:19", "Log": "2349", "Carplate": "WCR4714", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:34:20", "Log": "2350", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:34:20", "Log": "2351", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:34:20", "Log": "2352", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:34:40", "Log": "2353", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:34:40", "Log": "2354", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:34:40", "Log": "2355", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:37:23", "Log": "2356", "Carplate": "WTX6066", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:40:39", "Log": "2357", "Carplate": "WPQ5159", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:40:40", "Log": "2358", "Light_ID": "L35", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:40:40", "Log": "2359", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:40:40", "Log": "2360", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:41:00", "Log": "2361", "Light_ID": "L35", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:41:00", "Log": "2362", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:41:00", "Log": "2363", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:44:48", "Log": "2364", "Carplate": "WVN1411", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:44:49", "Log": "2365", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:44:49", "Log": "2366", "Light_ID": "L48", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:44:49", "Log": "2367", "Light_ID": "L49", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:45:09", "Log": "2368", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:45:09", "Log": "2369", "Light_ID": "L48", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:45:09", "Log": "2370", "Light_ID": "L49", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:49:12", "Log": "2371", "Carplate": "WKY9311", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "13:54:27", "Log": "2372", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "13:54:28", "Log": "2373", "Light_ID": "L43", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:54:28", "Log": "2374", "Light_ID": "L44", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:54:28", "Log": "2375", "Light_ID": "L45", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:54:48", "Log": "2376", "Light_ID": "L43", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:54:48", "Log": "2377", "Light_ID": "L44", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:54:48", "Log": "2378", "Light_ID": "L45", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "13:57:37", "Log": "2379", "Carplate": "WEC5827", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:00:53", "Log": "2380", "Carplate": "WXP9888", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:00:54", "Log": "2381", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:00:54", "Log": "2382", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:00:54", "Log": "2383", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:01:14", "Log": "2384", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:01:14", "Log": "2385", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:01:14", "Log": "2386", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:05:14", "Log": "2387", "Carplate": "WXO7570", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:08:15", "Log": "2388", "Carplate": "WVN1411", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:11:21", "Log": "2389", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:11:22", "Log": "2390", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:11:22", "Log": "2391", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:11:22", "Log": "2392", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:11:42", "Log": "2393", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:11:42", "Log": "2394", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:11:42", "Log": "2395", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:15:23", "Log": "2396", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:19:41", "Log": "2397", "Carplate": "WTZ6995", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:24:07", "Log": "2398", "Carplate": "WNW7646", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:27:25", "Log": "2399", "Carplate": "WTZ6995", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:27:26", "Log": "2400", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:27:26", "Log": "2401", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:27:26", "Log": "2402", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:27:46", "Log": "2403", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:27:46", "Log": "2404", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:27:46", "Log": "2405", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:30:55", "Log": "2406", "Carplate": "WPQ5159", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:35:58", "Log": "2407", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:35:59", "Log": "2408", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:35:59", "Log": "2409", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:35:59", "Log": "2410", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:36:19", "Log": "2411", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:36:19", "Log": "2412", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:36:19", "Log": "2413", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:40:12", "Log": "2414", "Carplate": "WOC1439", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:43:30", "Log": "2415", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:43:31", "Log": "2416", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:43:31", "Log": "2417", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:43:31", "Log": "2418", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:43:51", "Log": "2419", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:43:51", "Log": "2420", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:43:51", "Log": "2421", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:48:52", "Log": "2422", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "14:52:59", "Log": "2423", "Carplate": "WEF7994", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:53:00", "Log": "2424", "Light_ID": "L35", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:53:00", "Log": "2425", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:53:00", "Log": "2426", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:53:20", "Log": "2427", "Light_ID": "L35", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:53:20", "Log": "2428", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:53:20", "Log": "2429", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:13", "Log": "2430", "Carplate": "WJC1845", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "14:56:14", "Log": "2431", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:14", "Log": "2432", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:14", "Log": "2433", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:34", "Log": "2434", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:34", "Log": "2435", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "14:56:34", "Log": "2436", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:16", "Log": "2437", "Carplate": "WKS2386", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:00:17", "Log": "2438", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:17", "Log": "2439", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:17", "Log": "2440", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:37", "Log": "2441", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:37", "Log": "2442", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:00:37", "Log": "2443", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:04:35", "Log": "2444", "Carplate": "WKS2386", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "15:08:58", "Log": "2445", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:08:59", "Log": "2446", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:08:59", "Log": "2447", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:08:59", "Log": "2448", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:09:19", "Log": "2449", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:09:19", "Log": "2450", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:09:19", "Log": "2451", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:16", "Log": "2452", "Carplate": "WKS2386", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:12:17", "Log": "2453", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:17", "Log": "2454", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:17", "Log": "2455", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:37", "Log": "2456", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:37", "Log": "2457", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:12:37", "Log": "2458", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:23", "Log": "2459", "Carplate": "WTX6066", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:16:24", "Log": "2460", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:24", "Log": "2461", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:24", "Log": "2462", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:44", "Log": "2463", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:44", "Log": "2464", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:16:44", "Log": "2465", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:26", "Log": "2466", "Carplate": "WEC5827", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:21:27", "Log": "2467", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:27", "Log": "2468", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:27", "Log": "2469", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:47", "Log": "2470", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:47", "Log": "2471", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:21:47", "Log": "2472", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:24:56", "Log": "2473", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:24:57", "Log": "2474", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:24:57", "Log": "2475", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:24:57", "Log": "2476", "Light_ID": "L43", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:25:17", "Log": "2477", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:25:17", "Log": "2478", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:25:17", "Log": "2479", "Light_ID": "L43", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:28:12", "Log": "2480", "Carplate": "WMA3798", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "15:31:36", "Log": "2481", "Carplate": "WKY7886", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "15:36:56", "Log": "2482", "Carplate": "WPQ5159", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:36:57", "Log": "2483", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:36:57", "Log": "2484", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:36:57", "Log": "2485", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:37:17", "Log": "2486", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:37:17", "Log": "2487", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:37:17", "Log": "2488", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:12", "Log": "2489", "Carplate": "WPR3574", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:40:13", "Log": "2490", "Light_ID": "L1", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:13", "Log": "2491", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:13", "Log": "2492", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:33", "Log": "2493", "Light_ID": "L1", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:33", "Log": "2494", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:40:33", "Log": "2495", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:35", "Log": "2496", "Carplate": "WKY9311", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:44:36", "Log": "2497", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:36", "Log": "2498", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:36", "Log": "2499", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:56", "Log": "2500", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:56", "Log": "2501", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:44:56", "Log": "2502", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:49:51", "Log": "2503", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "15:54:19", "Log": "2504", "Carplate": "WKS2386", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "15:57:22", "Log": "2505", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "15:57:23", "Log": "2506", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:57:23", "Log": "2507", "Light_ID": "L4", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:57:23", "Log": "2508", "Light_ID": "L5", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:57:43", "Log": "2509", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:57:43", "Log": "2510", "Light_ID": "L4", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "15:57:43", "Log": "2511", "Light_ID": "L5", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:01:46", "Log": "2512", "Carplate": "WMH5972", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:06:47", "Log": "2513", "Carplate": "WMP3061", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "16:06:48", "Log": "2514", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:06:48", "Log": "2515", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:06:48", "Log": "2516", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:07:08", "Log": "2517", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:07:08", "Log": "2518", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:07:08", "Log": "2519", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:10:55", "Log": "2520", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:14:18", "Log": "2521", "Carplate": "WKY7886", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "16:14:19", "Log": "2522", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:14:19", "Log": "2523", "Light_ID": "L48", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:14:19", "Log": "2524", "Light_ID": "L49", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:14:39", "Log": "2525", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:14:39", "Log": "2526", "Light_ID": "L48", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:14:39", "Log": "2527", "Light_ID": "L49", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:30", "Log": "2528", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "16:18:31", "Log": "2529", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:31", "Log": "2530", "Light_ID": "L48", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:31", "Log": "2531", "Light_ID": "L49", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:51", "Log": "2532", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:51", "Log": "2533", "Light_ID": "L48", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:18:51", "Log": "2534", "Light_ID": "L49", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:22:33", "Log": "2535", "Carplate": "WEF7994", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:26:48", "Log": "2536", "Carplate": "WBK9866", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:30:11", "Log": "2537", "Carplate": "WVN1411", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "16:30:12", "Log": "2538", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:30:12", "Log": "2539", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:30:12", "Log": "2540", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:30:32", "Log": "2541", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:30:32", "Log": "2542", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:30:32", "Log": "2543", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:33:12", "Log": "2544", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:37:24", "Log": "2545", "Carplate": "WTZ6995", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:42:26", "Log": "2546", "Carplate": "WTZ6995", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "16:42:27", "Log": "2547", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:42:27", "Log": "2548", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:42:27", "Log": "2549", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:42:47", "Log": "2550", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:42:47", "Log": "2551", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:42:47", "Log": "2552", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "16:46:33", "Log": "2553", "Carplate": "WCR4714", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:49:40", "Log": "2554", "Carplate": "WMP3061", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:53:52", "Log": "2555", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "16:56:55", "Log": "2556", "Carplate": "WTZ6995", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "17:02:15", "Log": "2557", "Carplate": "WOC0394", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "17:07:24", "Log": "2558", "Carplate": "WEC5827", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "17:11:39", "Log": "2559", "Carplate": "WMP3061", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:11:40", "Log": "2560", "Light_ID": "L0", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:11:40", "Log": "2561", "Light_ID": "L1", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:11:40", "Log": "2562", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:12:00", "Log": "2563", "Light_ID": "L0", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:12:00", "Log": "2564", "Light_ID": "L1", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:12:00", "Log": "2565", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:14:44", "Log": "2566", "Carplate": "WXP9888", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "17:20:09", "Log": "2567", "Carplate": "WKS2386", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:20:10", "Log": "2568", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:20:10", "Log": "2569", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:20:10", "Log": "2570", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:20:30", "Log": "2571", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:20:30", "Log": "2572", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:20:30", "Log": "2573", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:12", "Log": "2574", "Carplate": "WXP9888", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:25:13", "Log": "2575", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:13", "Log": "2576", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:13", "Log": "2577", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:33", "Log": "2578", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:33", "Log": "2579", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:25:33", "Log": "2580", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:36", "Log": "2581", "Carplate": "WNW7646", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:28:37", "Log": "2582", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:37", "Log": "2583", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:37", "Log": "2584", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:57", "Log": "2585", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:57", "Log": "2586", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:28:57", "Log": "2587", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:32:52", "Log": "2588", "Carplate": "WMH5972", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:32:53", "Log": "2589", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:32:53", "Log": "2590", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:32:53", "Log": "2591", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:33:13", "Log": "2592", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:33:13", "Log": "2593", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:33:13", "Log": "2594", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:02", "Log": "2595", "Carplate": "WZC4850", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:38:03", "Log": "2596", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:03", "Log": "2597", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:03", "Log": "2598", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:23", "Log": "2599", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:23", "Log": "2600", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:38:23", "Log": "2601", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:41:04", "Log": "2602", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "17:44:26", "Log": "2603", "Carplate": "WBV7670", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:44:27", "Log": "2604", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:44:27", "Log": "2605", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:44:27", "Log": "2606", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:44:47", "Log": "2607", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:44:47", "Log": "2608", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:44:47", "Log": "2609", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:38", "Log": "2610", "Carplate": "WMA3798", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:48:39", "Log": "2611", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:39", "Log": "2612", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:39", "Log": "2613", "Light_ID": "L9", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:59", "Log": "2614", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:59", "Log": "2615", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:48:59", "Log": "2616", "Light_ID": "L9", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:53:48", "Log": "2617", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "17:53:49", "Log": "2618", "Light_ID": "L6", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:53:49", "Log": "2619", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:53:49", "Log": "2620", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:54:09", "Log": "2621", "Light_ID": "L6", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:54:09", "Log": "2622", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:54:09", "Log": "2623", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "17:56:48", "Log": "2624", "Carplate": "WPQ5159", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:01:05", "Log": "2625", "Carplate": "WPR3574", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:05:22", "Log": "2626", "Carplate": "WKY7886", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:08:49", "Log": "2627", "Carplate": "WTX6066", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:13:57", "Log": "2628", "Carplate": "WTX6066", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "18:13:58", "Log": "2629", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:13:58", "Log": "2630", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:13:58", "Log": "2631", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:14:18", "Log": "2632", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:14:18", "Log": "2633", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:14:18", "Log": "2634", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:16:58", "Log": "2635", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:20:11", "Log": "2636", "Carplate": "WOC1439", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:23:22", "Log": "2637", "Carplate": "WPR3574", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "18:23:23", "Log": "2638", "Light_ID": "L47", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:23:23", "Log": "2639", "Light_ID": "L48", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:23:23", "Log": "2640", "Light_ID": "L49", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:23:43", "Log": "2641", "Light_ID": "L47", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:23:43", "Log": "2642", "Light_ID": "L48", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:23:43", "Log": "2643", "Light_ID": "L49", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:27:24", "Log": "2644", "Carplate": "WJC1845", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:32:44", "Log": "2645", "Carplate": "WKY9311", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:36:09", "Log": "2646", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "18:36:10", "Log": "2647", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:36:10", "Log": "2648", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:36:10", "Log": "2649", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:36:30", "Log": "2650", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:36:30", "Log": "2651", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:36:30", "Log": "2652", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:40:09", "Log": "2653", "Carplate": "WTX6066", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:43:15", "Log": "2654", "Carplate": "WCR4714", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "18:43:16", "Log": "2655", "Light_ID": "L6", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:43:16", "Log": "2656", "Light_ID": "L7", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:43:16", "Log": "2657", "Light_ID": "L8", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:43:36", "Log": "2658", "Light_ID": "L6", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:43:36", "Log": "2659", "Light_ID": "L7", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:43:36", "Log": "2660", "Light_ID": "L8", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:48:39", "Log": "2661", "Carplate": "WOC0394", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "18:48:40", "Log": "2662", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:48:40", "Log": "2663", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:48:40", "Log": "2664", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:49:00", "Log": "2665", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:49:00", "Log": "2666", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:49:00", "Log": "2667", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "18:53:58", "Log": "2668", "Carplate": "WZC4850", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "18:57:21", "Log": "2669", "Carplate": "WRZ1856", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:02:50", "Log": "2670", "Carplate": "WOC1439", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:06:15", "Log": "2671", "Carplate": "WMH5972", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:10:39", "Log": "2672", "Carplate": "WXO7570", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:10:40", "Log": "2673", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:10:40", "Log": "2674", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:10:40", "Log": "2675", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:11:00", "Log": "2676", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:11:00", "Log": "2677", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:11:00", "Log": "2678", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:15:05", "Log": "2679", "Carplate": "WNW7646", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:19:34", "Log": "2680", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:19:35", "Log": "2681", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:19:35", "Log": "2682", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:19:35", "Log": "2683", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:19:55", "Log": "2684", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:19:55", "Log": "2685", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:19:55", "Log": "2686", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:35", "Log": "2687", "Carplate": "WBK9866", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:22:36", "Log": "2688", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:36", "Log": "2689", "Light_ID": "L14", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:36", "Log": "2690", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:56", "Log": "2691", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:56", "Log": "2692", "Light_ID": "L14", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:22:56", "Log": "2693", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:25:51", "Log": "2694", "Carplate": "WSW0312", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:29:11", "Log": "2695", "Carplate": "WMA3798", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:32:23", "Log": "2696", "Carplate": "WBV7670", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:35:50", "Log": "2697", "Carplate": "WMA3798", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:35:51", "Log": "2698", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:35:51", "Log": "2699", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:35:51", "Log": "2700", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:36:11", "Log": "2701", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:36:11", "Log": "2702", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:36:11", "Log": "2703", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:00", "Log": "2704", "Carplate": "WOC1439", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:39:01", "Log": "2705", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:01", "Log": "2706", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:01", "Log": "2707", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:21", "Log": "2708", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:21", "Log": "2709", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:39:21", "Log": "2710", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:43:13", "Log": "2711", "Carplate": "WMA3798", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "19:46:24", "Log": "2712", "Carplate": "WFM9887", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:46:25", "Log": "2713", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:46:25", "Log": "2714", "Light_ID": "L26", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:46:25", "Log": "2715", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:46:45", "Log": "2716", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:46:45", "Log": "2717", "Light_ID": "L26", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:46:45", "Log": "2718", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:32", "Log": "2719", "Carplate": "WJC1845", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:50:33", "Log": "2720", "Light_ID": "L15", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:33", "Log": "2721", "Light_ID": "L16", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:33", "Log": "2722", "Light_ID": "L17", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:53", "Log": "2723", "Light_ID": "L15", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:53", "Log": "2724", "Light_ID": "L16", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:50:53", "Log": "2725", "Light_ID": "L17", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:54:55", "Log": "2726", "Carplate": "WKY9311", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:54:56", "Log": "2727", "Light_ID": "L35", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:54:56", "Log": "2728", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:54:56", "Log": "2729", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:55:16", "Log": "2730", "Light_ID": "L35", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:55:16", "Log": "2731", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:55:16", "Log": "2732", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:10", "Log": "2733", "Carplate": "WTZ6995", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "19:59:11", "Log": "2734", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:11", "Log": "2735", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:11", "Log": "2736", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:31", "Log": "2737", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:31", "Log": "2738", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "19:59:31", "Log": "2739", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:13", "Log": "2740", "Carplate": "WSW0312", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:02:14", "Log": "2741", "Light_ID": "L27", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:14", "Log": "2742", "Light_ID": "L28", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:14", "Log": "2743", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:34", "Log": "2744", "Light_ID": "L27", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:34", "Log": "2745", "Light_ID": "L28", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:02:34", "Log": "2746", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:06:21", "Log": "2747", "Carplate": "WKY9311", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:11:37", "Log": "2748", "Carplate": "WBK9866", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:15:55", "Log": "2749", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:21:25", "Log": "2750", "Carplate": "WMA3798", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:21:26", "Log": "2751", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:21:26", "Log": "2752", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:21:26", "Log": "2753", "Light_ID": "L13", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:21:46", "Log": "2754", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:21:46", "Log": "2755", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:21:46", "Log": "2756", "Light_ID": "L13", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:24:47", "Log": "2757", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:24:48", "Log": "2758", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:24:48", "Log": "2759", "Light_ID": "L34", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:24:48", "Log": "2760", "Light_ID": "L35", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:25:08", "Log": "2761", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:25:08", "Log": "2762", "Light_ID": "L34", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:25:08", "Log": "2763", "Light_ID": "L35", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:05", "Log": "2764", "Carplate": "WKY9311", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:30:06", "Log": "2765", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:06", "Log": "2766", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:06", "Log": "2767", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:26", "Log": "2768", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:26", "Log": "2769", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:30:26", "Log": "2770", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:09", "Log": "2771", "Carplate": "WNW7646", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:33:10", "Log": "2772", "Light_ID": "L35", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:10", "Log": "2773", "Light_ID": "L36", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:10", "Log": "2774", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:30", "Log": "2775", "Light_ID": "L35", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:30", "Log": "2776", "Light_ID": "L36", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:33:30", "Log": "2777", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:37:34", "Log": "2778", "Carplate": "WKS2386", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:42:49", "Log": "2779", "Carplate": "WKS2386", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:42:50", "Log": "2780", "Light_ID": "L2", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:42:50", "Log": "2781", "Light_ID": "L3", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:42:50", "Log": "2782", "Light_ID": "L4", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:43:10", "Log": "2783", "Light_ID": "L2", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:43:10", "Log": "2784", "Light_ID": "L3", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:43:10", "Log": "2785", "Light_ID": "L4", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:46:58", "Log": "2786", "Carplate": "WXP9888", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:50:12", "Log": "2787", "Carplate": "WPR3574", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:53:35", "Log": "2788", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "20:57:01", "Log": "2789", "Carplate": "WAK4525", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "20:57:02", "Log": "2790", "Light_ID": "L32", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:57:02", "Log": "2791", "Light_ID": "L33", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:57:02", "Log": "2792", "Light_ID": "L34", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:57:22", "Log": "2793", "Light_ID": "L32", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:57:22", "Log": "2794", "Light_ID": "L33", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "20:57:22", "Log": "2795", "Light_ID": "L34", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:00:08", "Log": "2796", "Carplate": "WSU5580", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:04:12", "Log": "2797", "Carplate": "WCR4714", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:07:16", "Log": "2798", "Carplate": "WMP3061", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:10:40", "Log": "2799", "Carplate": "WEC5827", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:10:41", "Log": "2800", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:10:41", "Log": "2801", "Light_ID": "L41", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:10:41", "Log": "2802", "Light_ID": "L42", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:11:01", "Log": "2803", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:11:01", "Log": "2804", "Light_ID": "L41", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:11:01", "Log": "2805", "Light_ID": "L42", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:14:54", "Log": "2806", "Carplate": "WCR4714", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:14:55", "Log": "2807", "Light_ID": "L10", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:14:55", "Log": "2808", "Light_ID": "L11", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:14:55", "Log": "2809", "Light_ID": "L12", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:15:15", "Log": "2810", "Light_ID": "L10", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:15:15", "Log": "2811", "Light_ID": "L11", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:15:15", "Log": "2812", "Light_ID": "L12", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:18", "Log": "2813", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:20:19", "Log": "2814", "Light_ID": "L18", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:19", "Log": "2815", "Light_ID": "L19", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:19", "Log": "2816", "Light_ID": "L20", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:39", "Log": "2817", "Light_ID": "L18", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:39", "Log": "2818", "Light_ID": "L19", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:20:39", "Log": "2819", "Light_ID": "L20", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:25:39", "Log": "2820", "Carplate": "WMA3798", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:28:44", "Log": "2821", "Carplate": "WBK9866", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:28:45", "Log": "2822", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:28:45", "Log": "2823", "Light_ID": "L24", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:28:45", "Log": "2824", "Light_ID": "L25", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:29:05", "Log": "2825", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:29:05", "Log": "2826", "Light_ID": "L24", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:29:05", "Log": "2827", "Light_ID": "L25", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:31:44", "Log": "2828", "Carplate": "WCR4714", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:35:14", "Log": "2829", "Carplate": "WIO1728", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:35:15", "Log": "2830", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:35:15", "Log": "2831", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:35:15", "Log": "2832", "Light_ID": "L40", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:35:35", "Log": "2833", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:35:35", "Log": "2834", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:35:35", "Log": "2835", "Light_ID": "L40", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:40:28", "Log": "2836", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:44:44", "Log": "2837", "Carplate": "WAK4525", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "21:50:06", "Log": "2838", "Carplate": "WTX6066", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:50:07", "Log": "2839", "Light_ID": "L37", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:50:07", "Log": "2840", "Light_ID": "L38", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:50:07", "Log": "2841", "Light_ID": "L39", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:50:27", "Log": "2842", "Light_ID": "L37", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:50:27", "Log": "2843", "Light_ID": "L38", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:50:27", "Log": "2844", "Light_ID": "L39", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:29", "Log": "2845", "Carplate": "WKY7886", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:55:30", "Log": "2846", "Light_ID": "L21", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:30", "Log": "2847", "Light_ID": "L22", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:30", "Log": "2848", "Light_ID": "L23", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:50", "Log": "2849", "Light_ID": "L21", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:50", "Log": "2850", "Light_ID": "L22", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:55:50", "Log": "2851", "Light_ID": "L23", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:59:48", "Log": "2852", "Carplate": "WTD4826", "Event": "Entry"}
+{"Date": "14-02-2018", "Time": "21:59:49", "Log": "2853", "Light_ID": "L29", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:59:49", "Log": "2854", "Light_ID": "L30", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "21:59:49", "Log": "2855", "Light_ID": "L31", "Light_intensity": "100%", "Caused_by_motion": "Vehicle", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "22:00:09", "Log": "2856", "Light_ID": "L29", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "22:00:09", "Log": "2857", "Light_ID": "L30", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "22:00:09", "Log": "2858", "Light_ID": "L31", "Light_intensity": "50%", "Caused_by_motion": "null", "Energy_type": "Brown"}
+{"Date": "14-02-2018", "Time": "22:12:32", "Log": "2859", "Carplate": "WTZ6995", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:13:03", "Log": "2860", "Carplate": "WNW7646", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:14:43", "Log": "2861", "Carplate": "WFM9887", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:15:34", "Log": "2862", "Carplate": "WTX6066", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:18:12", "Log": "2863", "Carplate": "WSW0312", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:19:19", "Log": "2864", "Carplate": "WVN1411", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:21:36", "Log": "2865", "Carplate": "WBK9866", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:22:37", "Log": "2866", "Carplate": "WKY9311", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:24:00", "Log": "2867", "Carplate": "WEC5827", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:24:08", "Log": "2868", "Carplate": "WJC1845", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:24:30", "Log": "2869", "Carplate": "WOC0394", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:25:03", "Log": "2870", "Carplate": "WIO1728", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:26:24", "Log": "2871", "Carplate": "WTD4826", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:28:54", "Log": "2872", "Carplate": "WKY7886", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:31:14", "Log": "2873", "Carplate": "WKS2386", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:32:29", "Log": "2874", "Carplate": "WXO7570", "Event": "Exit"}
+{"Date": "14-02-2018", "Time": "22:33:36", "Log": "2875", "Carplate": "WOC1439", "Event": "Exit"}
