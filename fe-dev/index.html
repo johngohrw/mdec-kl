@@ -20,6 +20,9 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- my custom title header font lol --> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:700" rel="stylesheet">
     <!-- Arduino bullshit header -->
     <link rel="stylesheet" href="arduinoheader.css">
 </head>
@@ -30,7 +33,7 @@
 
         <nav class="arduino-nav">
             <div class="branding-text">
-                <h3>Mavericks Security Dashboard</h3>
+                <h3>MAVERICKS SECURITY CONTROL PANEL</h3>
             </div>
 
             <!-- logo -->
@@ -50,93 +53,44 @@
             <!-- main nav -->
             <div class="main-nav" style="">
 
-                <ul class="ul-burger">
-                    <li class="burger-menu">
-                        <a class="burger"><img src="https://cdn.arduino.cc/header-footer/hxtufl6gko/images/burger_menu.svg"
-                                alt="Open Navigation"></a>
-                    </li>
-                </ul>
 
-                <ul class="nav-left">
-
-
+                <ul class="nav-left pills">
                     <li class="level-1" id="dashboard">
-                        <a href="index.html">Dashboard</a>
+                        <a href="#dashboardz" data-toggle="tab" aria-expanded="true">Dashboard</a>
                     </li>
 
                     <li class="has-submenu level-1">
-                        <a role="button" id="statistics" href="#haha">Statistics</a>
+                        <a role="button" id="statistics" data-toggle="tab" aria-expanded="false" href="#stats">Statistics</a>
                         <ul class="nav-submenu">
-                            <li><a href="#">Daily</a></li>
-                            <li><a href="#">Weekly</a></li>
-                            <li><a href="#">Monthly</a></li>
-                            <li><a href="#">Yearly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#statsdaily">Daily</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#statsweekly">Weekly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#statsmonthly">Monthly</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#statsyearly">Yearly</a></li>
                         </ul>
                     </li>
 
                     <li class="has-submenu level-1" id="event-log">
-                        <a href="#">Event Log</a>
+                        <a data-toggle="tab" aria-expanded="false" href="#eventlog">Event Log</a>
                     </li>
 
                     <li class="has-submenu level-1" id="floor-status">
-                        <a role="button">Floor Status</a>
+                        <a role="button" data-toggle="tab" aria-expanded="false" href="#fb1">Floor Status</a>
                         <ul class="nav-submenu">
-                            <li><a href="#">Floor B1</a></li>
-                            <li><a href="#">Floor B2</a></li>
-                            <li><a href="#">Floor B3</a></li>
-                            <li><a href="#">Floor B4</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#fb1">Floor B1</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#fb2">Floor B2</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#fb3">Floor B3</a></li>
+                            <li><a data-toggle="tab" aria-expanded="false" href="#fb4">Floor B4</a></li>
                         </ul>
                     </li>
 
                     <li class="level-1" id="help">
-                        <a href="//www.arduino.cc/en/Main/Education">
-                            <span class="full">Help</span>
-                            <span class="shorten">Help</span>
-                        </a>
+                        <a data-toggle="tab" aria-expanded="false" href="index.html/#helpz">Help</a>
                     </li>
-
-                    <!-- fake mobile button -->
-                    <li class="level-1">
-                        <div class="show-mobile fake-button">
-                        </div>
-                    </li>
-                    <!-- fake mobile button end -->
 
                 </ul>
                 <!-- main nav end -->
 
                 <!-- nav right -->
-                <ul class="nav-right">
-
-                    <!-- search form -->
-                    <li class="level-1 header-hide-mobile">
-                        <a id="search-bar">
-                            <form role="search" id="searchform" method="GET" action="//www.google.com/search">
-                                <input type="hidden" name="ie" value="UTF-8">
-                                <input type="hidden" name="oe" value="UTF-8">
-                                <input type="text" placeholder="Search" value="" name="q" title="" class="search-typing">
-                                <i class="clear-icon">×</i>
-                                <input type="hidden" name="domains" value="https://www.arduino.cc" class="fill-it">
-                                <input type="hidden" name="sitesearch" value="https://www.arduino.cc" class="fill-it">
-                            </form>
-                        </a>
-                    </li>
-                    <!-- search form end -->
-                    <!-- language-selector end -->
-
-                    <!-- quotes start -->
-                    
-                    <!-- quotes end -->
-
-                    <!-- cart start -->
-                    
-                    <!-- cart end -->
-
-                    <!-- geolocation end -->
-
-                
-
-                    </ul>
                     <!-- nav right -->
                 </div>
             </nav>
@@ -145,190 +99,305 @@
     </div>
     <div class="wrapper">
         <div class="main-panel">
-            <nav class="navbar navbar-transparent">
-                <div class="container-fluid">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand flex-branding" href="#"> 
-                            <img class="logo-icon" src="assets/img/car-park-1.svg" />
-                            <span class="brand-spacing"></span>
-                            Mavericks Security Dashboard 
-                        </a>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">
-                                        Notifications
-                                        <b class="caret"></b>
-                                    </p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Mike John responded to your email</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You have 5 new tasks</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">You're now friend with Andrew</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Another One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
-                                </a>
-                            </li>
-                            <li class="separator hidden-lg hidden-md"></li>
-                        </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group form-search is-empty">
-                                <input type="text" class="form-control" placeholder=" Search ">
-                                <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                                <i class="material-icons">search</i>
-                                <div class="ripple-container"></div>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
             <div class="content-main">
-                <div class="container-fluid col-sm-10 content-inner">
-                    <ul class="nav nav-pills nav-pills-warning">
-                        <li class="active">
-                            <a href="#pill1" data-toggle="tab" aria-expanded="true">Current Status</a>
-                        </li>
-                        <li class="">
-                            <a href="#pill2" data-toggle="tab" aria-expanded="false">Weekly Statistics</a>
-                        </li>
-                        <li class="">
-                            <a href="#pill3" data-toggle="tab" aria-expanded="false">Monthly Statistics</a>
-                        </li>
-                        <li class="">
-                            <a href="#pill4" data-toggle="tab" aria-expanded="false">History</a>
-                        </li>
-                    </ul>
+                <div class="container-fluid col-xs-10 content-inner">
                     <div class="tab-content card">
-                        <div class="tab-pane active card-content" id="pill1">
-                            Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
-                            <br> Dramatically visualize customer directed convergence without revolutionary ROI. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                            <br>
-                            <br> This is very nice.
+                        <div class="tab-pane active card-content" id="dashboardz">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    DASHBOARD
+                                </span>
+                            </h3>
+
+                            <div class="col-lg-4">
+                                <div class="card card-pricing card-raised">
+                                    <div class="content">
+                                        <h6 class="category">Number of cars in the parking</h6>
+                                        <div class="icon icon-rose" style="height: 265px !important; display: flex; align-items: center; justify-content: center;">
+                                            <i class="material-icons">directions_car</i>
+                                        </div>
+                                        <h3 class="card-title" id="data-number-of-cars">29</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-pricing card-raised">
+                                    <div class="content">
+                                        <h6 class="category">Current average light intensity</h6>
+                                        <div class="chart-wrapper">
+                                            <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
+                                            <div class="ct-chart ct-square" id="chart-avg-light-intensity"></div>
+                                        </div>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-avg-light-intensity">29</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-pricing card-raised">
+                                    <div class="content">
+                                        <h6 class="category">some widget hahahaa</h6>
+                                        <div class="chart-wrapper">
+                                            <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
+                                            <div class="ct-chart ct-square" id="chart-bla"></div>
+                                        </div>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-bla">some result</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-pricing card-raised">
+                                    <div class="content">
+                                        <h6 class="category">some widget hahahaa</h6>
+                                        <div class="chart-wrapper">
+                                            <i class="material-icons put-in-middle-of-chart">wb_incandescent</i>
+                                            <div class="ct-chart ct-square" id="chart-bla"></div>
+                                        </div>
+                                        <h3 class="card-title no-top-bottom-margin" id="data-bla">some result</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                        <div class="tab-pane card-content" id="stats">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    STATS
+                                </span>
+                            </h3>
+                            <div class="col-lg-12">
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left">
+                                            Number of entries made in the last 24 hrs: 
+                                            <span id="data-daily-entries" class="highlighted-answer">
+                                                24
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left">
+                                            Number of exits made in th last 24 hrs
+                                            <span id="data-exits-daily"class="highlighted-answer">
+                                                59
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left"
+                                            ?
+                                            <span id="data-bla"> class="highlighted-answer">
+                                                ?
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left"
+                                            ?
+                                            <span id="data-bla"> class="highlighted-answer">
+                                                ?
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left"
+                                            ?
+                                            <span id="data-bla"> class="highlighted-answer">
+                                                ?
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="card card-pricing card-raised card-stats">
+                                    <div class="content">
+                                        <h5 class="card-title no-top-bottom-margin text-align-left"
+                                            ?
+                                            <span id="data-bla"> class="highlighted-answer">
+                                                ?
+                                            </span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                        
+                            </div>
+
+
+
+
+
+
+
+                            
                             
                         </div>
-                        <div class="tab-pane card-content" id="pill2">
-                            Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                            <br>
-                            <br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                        <div class="tab-pane card-content" id="statsdaily">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    THIS MONTH'S STATISTICS
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
                         </div>
-                        <div class="tab-pane card-content" id="pill3">
-                            Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                            <br>
-                            <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                        <div class="tab-pane card-content" id="statsweekly">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    THIS WEEK'S STATISTICS
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
                         </div>
-                        <div class="tab-pane card-content" id="pill4">
-                            <h3>History</h3>
-                            Completelyjahja synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                            <br>
-                            <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                        <div class="tab-pane card-content" id="statsmonthly">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    THIS MONTH'S STATISTICS
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="statsyearly">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    THIS YEAR'S STATISTICS
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="eventlog">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    EVENT LOG
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="fb1">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    FLOOR B1 OVERVIEW
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="fb2">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    FLOOR B2 OVERVIEW
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="fb3">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    FLOOR B3 OVERVIEW
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="fb4">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    FLOOR B4 OVERVIEW
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
+                        </div>
+                        <div class="tab-pane card-content" id="helpz">
+                            <h3 class="content-title-walao">
+                                <span class="block-text-highlighting">
+                                    SYSTEM HELP
+                                </span>
+                            </h3>
+
+
+
+
+
+
+
+                            
                         </div>
                     </div>
 

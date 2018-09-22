@@ -21,5 +21,28 @@ window.onscroll = function (e) {
             },200)
         }
     }
-
 };
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("Document ready!");
+
+    
+    // number of cars rn
+    val = 150
+    $('#data-number-of-cars').text(val)
+
+    // avg light intensity
+    val = 70
+    new Chartist.Pie('#chart-avg-light-intensity', {
+        series: [val]
+      }, {
+        donut: true,
+        donutWidth: 20,
+        startAngle: 270,
+        total: 100,
+        showLabel: false
+      });
+    $('#data-avg-light-intensity').text(val + 'kWh')
+
+});
+

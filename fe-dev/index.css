@@ -1,6 +1,6 @@
 .wrapper {
     height: 100% !important;
-    min-height: 100vh !important;
+    /* min-height: 100vh !important; */
 }
 
 .fucking-hidden {
@@ -44,6 +44,9 @@
 
 .branding-text h3 {
     font-weight: 800;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+
 }
 
 .navbar {
@@ -63,7 +66,8 @@
 .content-main {
     flex-grow: 1 !important;
     display: flex !important;
-    min-height: calc(100vh - 130px);
+    min-height: calc(100vh - 180px);
+    background-color: #efefef;
 }
 
 .content-inner {
@@ -86,10 +90,56 @@
 }
 
 .card-content {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.content-title-walao {
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.block-text-highlighting {
+    border-radius: 3px;
+    background-color: #545454;
+    padding: 5px 10px;
+
 }
 
 .footer {
     padding: 0 !important;
+}
+
+.chart-wrapper {
+    padding: 20px;
+}
+
+.no-top-bottom-margin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.put-in-middle-of-chart {
+    position: absolute;
+    font-size: 48px !important;
+    top: calc(50% - 22px);
+    left: calc(50% - 24px);
+}
+
+.text-align-left {
+    text-align: left !important;
+}
+
+.highlighted-answer {
+    border-radius: 3px;
+    background-color: #545454;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.card-stats {
+    margin: 5px 0 !important;
 }
