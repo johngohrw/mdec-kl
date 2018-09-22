@@ -1,0 +1,23 @@
+import cv2
+import argparse as ap
+
+def cropBottomHalf(img):
+    print(img.rows)
+    cropped = img[img.shape[0]:]
+    return cropped
+
+if __name__ == "__main__":
+    carPlateImg = cv2.imread("carPlateImg.jpg")
+    gray = cv2.cvtColor(carPlateImg, cv2.COLOR_BGR2GRAY)
+
+    #binarisation.
+    ret, binarised = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+
+    bottomHalf = cropBottomHalf(binarised)
+    print(bottomHalf)
+    
+    cv2.imshow("Gray", gray)
+    cv2.imshow("Binarsied", binarised)
+    #cv2.imshow("Bottom half", bottomHalf)
+    cv2.waitKey(0)
+
