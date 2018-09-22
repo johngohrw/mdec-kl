@@ -3,6 +3,7 @@ timeout is how long it takes for the lights in a motionless area to turn dim.
 cv.imshow() and cv.waitKey() will probably cause the program to jam as it tries to load the video. So, if you're facing crashing issues, you can comment them out.
 I left them in because I feel that they show crucial information on how it works.
 '''
+import os
 import imutils
 import cv2
 import argparse as ap
@@ -18,22 +19,24 @@ def signalMaxIntensity():
 def signalDimIntensity():
     #TODO: implement the sending action.
     print("Sending signal to set lgihts to dim intensity")
-    
-if __name__ == "__main__":
+
+def detectMotions(callback):
     #set timeout timer.
     timeout = 100 #arbitrary value.
     timeCounter = 0
 
     logFile = open("log.txt", 'w')
-    
+
     #motion detected flag.
-    motionDetected = False        
+    motionDetected = False
+    currentDir = os.path.dirname(os.path.realpath(__file__));
     #read video.
-    cap = cv2.VideoCapture("basementFootage.mp4")
+    cap = cv2.VideoCapture(os.path.join(currentDir, "basementFootage.mp4"));
     #we dont even use this, but im lazy to refactor.
     firstGFrame = None
     while True:
         ret, currFrame = cap.read()
+        print(ret);
         text = "No motion"
         if ret:
             currFrame = imutils.resize(currFrame, width=500)
@@ -56,11 +59,11 @@ if __name__ == "__main__":
                     now = datetime.datetime.now()
                     nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
                     logFile.write("Set light to maximum intensity at time: " + nowStr +'\n')
-                    signalMaxIntensity()
+                    callback(nowStr)
                 motionDetected = True
                 #if motion detected, turn lights on. - reset time counter.
                 timeCounter = 0
-                
+
             if motionDetected:
                 timeCounter += 1
             if timeCounter >= timeout:
@@ -68,13 +71,9 @@ if __name__ == "__main__":
                 #send signal to dim lights.
                 #turn off counter until lights are turned back on.
                 timeCounter = 0
-                now = datetime.datetime.now()
-                nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
-                logFile.write("Set light to dim intensity at time: " + nowStr + '\n')
-                signalDimIntensity()
-                
+
             cv2.putText(currFrame, "Obs: {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-            
+
             cv2.imshow("Frame delta", frameDelta)
             cv2.imshow("Original", currFrame)
             cv2.waitKey(5)
@@ -84,4 +83,10 @@ if __name__ == "__main__":
     logFile.close()
     cap.release()
     cv2.destroyAllWindows()
-     
+
+def hello(string):
+    print(string);
+
+if __name__ == '__main__':
+    detectMotions(hello);
+

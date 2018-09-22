@@ -9,6 +9,9 @@ import cv2
 from PIL import Image
 import pytesseract
 
+import sys
+sys.path.append("IP/SecurityCamera");
+import ccCameraDraft2
 
 app = Flask(__name__);
 
@@ -39,6 +42,13 @@ def isDigit(c):
     return ord(c) >= 48 and ord(c) <= 57;
 
 
+def signalCallback(datetimeStr):
+    print("fdafdasf");
+    time, date = datetimeStr.split(" ");
+    data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
+    carEventsRef.push(data);
+
+
 @app.route("/")
 def hello_world():
     # FIXME: Hardcoded Image path
@@ -54,6 +64,8 @@ def hello_world():
     data = { "date": "22-09-2018", "time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
     data["Carplate"] = carPlateNum;
     carEventsRef.push(data);
+
+    ccCameraDraft2.detectMotions(signalCallback);
 
     return "Hello";
 
