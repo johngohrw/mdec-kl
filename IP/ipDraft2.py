@@ -66,7 +66,7 @@ def cropRegion(img, p1, p2, p3, p4):
 
     return np.array(region, np.uint8)
 if __name__ == "__main__":
-    carPlateImg = cv2.imread("carPlateImg.jpg")
+    carPlateImg = cv2.imread("carPlateImg2.png")
     gray = cv2.cvtColor(carPlateImg, cv2.COLOR_BGR2GRAY)
 
     #binarisation.
@@ -74,7 +74,6 @@ if __name__ == "__main__":
 
     #get bottom half of the image.
     bottomHalf = cropBottomHalf(binarised)
-
     #find canny.
     cannyImg = getCanny(bottomHalf)
 

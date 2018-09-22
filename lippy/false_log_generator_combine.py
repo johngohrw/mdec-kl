@@ -193,11 +193,11 @@ def lightUp_randomLights(list_of_lights, log_num, date_entry, time_input, toWrit
 if __name__ == "__main__":
     log_number = 0
     date_array = ['12-02-2018', '13-02-2018', '14-02-2018', '15-02-2018', '16-02-2018']
-    car_plates = car_plates_generator(30)
+    car_plates = car_plates_generator(50)
     #car_parking_status determines whether a car is parked in the carpark or not
     #car_parking_status = [False]*len(car_plates)
     #time_entries = sequential_time_in_weekday_generator(100)
-    lightList = lights_generator(50)
+    lightList = lights_generator(30)
     weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     weekends = ['Saturday', 'Sunday']
 
