@@ -43,17 +43,20 @@ def isDigit(c):
 
 
 def signalCallback(datetimeStr):
-    print("fdafdasf");
     time, date = datetimeStr.split(" ");
     data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
     carEventsRef.push(data);
 
 
 @app.route("/")
-def hello_world():
+def entranceExitDetection():
     # FIXME: Hardcoded Image path
     currentDir = os.path.dirname(os.path.realpath(__file__));
     imgPath = os.path.join(currentDir, "IP/carNumberPlate.jpg");
+    img = cv2.imread(imgPath);
+    cv2.imshow("Image", img);
+    cv2.waitKey(0);
+
     config = ("-l eng --oem 1 --psm 6");
     result = pytesseract.image_to_string(Image.open(imgPath), config=config);
     carPlateNum = "";
@@ -65,9 +68,30 @@ def hello_world():
     data["Carplate"] = carPlateNum;
     carEventsRef.push(data);
 
-    ccCameraDraft2.detectMotions(signalCallback);
+    return "";
 
-    return "Hello";
+
+@app.route("/motion")
+def motionDetection():
+    ccCameraDraft2.detectMotions(signalCallback);
+    return "";
+
+
+@app.route("/test")
+def test():
+    currentDir = os.path.dirname(os.path.realpath(__file__));
+    filePath = os.path.join(currentDir, "lippy/json_data.txt");
+    with open(filePath, "r") as lipFile:
+        for Json in lipFile:
+            current = Json.rstrip();
+            dic = json.loads(current);
+            try:
+                dic["Event"];
+                carEventsRef.push(dic);
+            except KeyError:
+                lightEventsRef.push(dic);
+
+    return "";
 
 
 @app.errorhandler(404)

@@ -24,7 +24,7 @@ const carEventsRef = firebaseDB.ref("car/carEvents");
 
 carEventsRef.limitToLast(1).on("child_added", snapshot => {
         const jsonData = snapshot.val();
-        const flag = jsonData.Event == "Entry";
+        const flag = jsonData.Event == "Entry" || jsonData.Event == "Motion";
         const child = spawn("python", ["uart_test.py", Number(flag)]);
 
         child.stdout.on('data', data => {

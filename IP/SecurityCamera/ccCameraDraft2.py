@@ -22,7 +22,7 @@ def signalDimIntensity():
 
 def detectMotions(callback):
     print("Sending signal to set lights to dim intensity")
-    
+
 def motionDetection(callback):
 
     #set timeout timer.
@@ -57,7 +57,7 @@ def motionDetection(callback):
             frameDelta = cv2.absdiff(cv2.convertScaleAbs(avgFrame), currGFrame)
             thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
             if np.sum(thresh == 255) > 0:
-                
+
                 if not motionDetected:
                     #send light signal to turn on.
                     now = datetime.datetime.now()
@@ -93,6 +93,6 @@ def detectedMotionCallback(myStr) :
 
     print(myStr)
 if __name__ == "__main__":
-    
+
     motionDetection(detectedMotionCallback)
 

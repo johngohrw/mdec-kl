@@ -16,15 +16,15 @@ def detectSquare(cnt):
     if len(approx)== 4:
         return True
     return False
-            
-            
+
+
 def filterForSquares(cnts):
     sqCnts = []
     for i in range (len(cnts)):
         cnt = cnts[i]
         if detectSquare(cnt):
             sqCnts.append(cnt)
-    #code below is relatively useless - was used for debug purposes.    
+    #code below is relatively useless - was used for debug purposes.
     outsider = []
     for i in range (len(cnts)):
         exist = False
@@ -36,9 +36,9 @@ def filterForSquares(cnts):
             outsider.append(cnts[i])
 
     return [sqCnts, outsider]
-    
+
 def cropBottomHalf(img):
-    half = int(img.shape[0]//2)    
+    half = int(img.shape[0]//2)
     cropped = img[half:]
     return cropped
 
@@ -66,7 +66,7 @@ def cropRegion(img, p1, p2, p3, p4):
 
     return np.array(region, np.uint8)
 if __name__ == "__main__":
-    carPlateImg = cv2.imread("carPlateImg2.png")
+    carPlateImg = cv2.imread("carPlateImg.jpg")
     gray = cv2.cvtColor(carPlateImg, cv2.COLOR_BGR2GRAY)
 
     #binarisation.
@@ -82,13 +82,13 @@ if __name__ == "__main__":
     kernel = np.ones((3,3), np.uint8)
     dilate = cv2.dilate(cannyImg, kernel, iterations = 1)
 
-    
+
     #get contours.
     dilatedContours = extractContours(dilate)
-    
+
     #remainder cnts was used for debug purposes.
     filteredCnts, remainderCnts  = filterForSquares(dilatedContours)
-    
+
     #draw contours.
     #--make a blank image.
     filteredBlackCanv = createBlankImg(bottomHalf.shape[0], bottomHalf.shape[1])
@@ -100,19 +100,19 @@ if __name__ == "__main__":
     cannyDilatedFC  = getCanny(dilatedFC)#canny to convert to binary
     dilatedExtractCnt = extractContours(cannyDilatedFC)
 
-    
-    #rmd was used for debug purposes. 
+
+    #rmd was used for debug purposes.
     filterDEC, rmd = filterForSquares(dilatedExtractCnt)
     c = max(filterDEC, key=cv2.contourArea)
-    
+
     #get bounding rect.
     x,y,w,h = cv2.boundingRect(c)
     #draw bounding rect on original bottom half
-    tapedOnBottomHalf = cropBottomHalf(carPlateImg)    
+    tapedOnBottomHalf = cropBottomHalf(carPlateImg)
     #crop region
     desiredRegion = cropRegion(tapedOnBottomHalf, y, x, y+h, x+w)
 
     cv2.imwrite("carNumberPlate.jpg", desiredRegion)
 
-    
+
 
