@@ -114,6 +114,7 @@ if __name__ == "__main__":
 
     gFiltered = cv2.GaussianBlur(gray, (21,21), 0)
     showResized("Blurred", gFiltered)
+
     #find canny.
     cannyImg = getCanny(gray)
     showResized("Canned", cannyImg)
