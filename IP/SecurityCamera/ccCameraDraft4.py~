@@ -57,7 +57,7 @@ def motionDetection(callback):
             frameDelta = cv2.absdiff(cv2.convertScaleAbs(avgFrame), currGFrame)
             thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
             if np.sum(thresh == 255) > 0:
-                
+           
 
                 #send light signal to turn on.
                 now = datetime.datetime.now()
@@ -78,10 +78,6 @@ def motionDetection(callback):
     cap.release()
     cv2.destroyAllWindows()
 
-
-def detectedMotionCallback(myStr) :
-
-    print(myStr)
 if __name__ == "__main__":
     
     motionDetection(detectedMotionCallback)

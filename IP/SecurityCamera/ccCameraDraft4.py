@@ -21,7 +21,7 @@ def signalDimIntensity():
     print("Sending signal to set lgihts to dim intensity")
 
 def detectMotions(callback):
-    print("Sending signal to set lights to dim intensity")
+    print("Sending signal to set lights to max intensity")
     
 def motionDetection(callback):
 
@@ -31,8 +31,12 @@ def motionDetection(callback):
 
     logFile = open("log.txt", 'w')
 
-    #motion detected flag.
+    #simple motion detected flag.
     motionDetected = False
+    #actual motion detected flag.
+    actualMotion = False
+    #switch flipped flag.
+    flipped = False
     currentDir = os.path.dirname(os.path.realpath(__file__));
     #read video.
     cap = cv2.VideoCapture(os.path.join(currentDir, "basementFootage.mp4"));
@@ -57,17 +61,41 @@ def motionDetection(callback):
             frameDelta = cv2.absdiff(cv2.convertScaleAbs(avgFrame), currGFrame)
             thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
             if np.sum(thresh == 255) > 0:
+                motionDetected = True
+                #if detected motion, reset timer.
+                timeCounter = 0
+            else :
+                motionDetected = False
+                timeCounter += 1
+
+            #actual motion switch flipping.
+            if motionDetected:
+                if not actualMotion:
+                    actualMotion = True
+                    flipped = True
+            else:
+                if timeCounter >= timeout and actualMotion:
+                    actualMotion = False
+                    flipped = True
                 
 
-                #send light signal to turn on.
-                now = datetime.datetime.now()
-                nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
-                callback(nowStr)
-                text = "Motion detected"
-            else :
-                text = "No motion"
- 
+            #if flipped, send to dim or send to brighten.
+            if flipped:                
+                #callback to brighten lights here.
+                if actualMotion:
+                    #send light signal to turn on.
+                    now = datetime.datetime.now()
+                    nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
+                    callback(nowStr)
+                    text = "Motion detected"
+                else:
+                    #we can set a callback to dim lights here as well.
+                    #for future reference.
+                    text = "No motion"                    
+
+                
             cv2.putText(currFrame, "Obs: {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+            flipped = False
             cv2.imshow("Frame delta", frameDelta)
             cv2.imshow("Original", currFrame)
             cv2.waitKey(5)
@@ -79,10 +107,6 @@ def motionDetection(callback):
     cv2.destroyAllWindows()
 
 
-def detectedMotionCallback(myStr) :
 
-    print(myStr)
-if __name__ == "__main__":
-    
-    motionDetection(detectedMotionCallback)
+motionDetection(detectMotions)
 
