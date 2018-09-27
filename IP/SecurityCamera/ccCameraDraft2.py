@@ -21,6 +21,10 @@ def signalDimIntensity():
     print("Sending signal to set lgihts to dim intensity")
 
 def detectMotions(callback):
+    print("Sending signal to set lights to dim intensity")
+    
+def motionDetection():
+
     #set timeout timer.
     timeout = 100 #arbitrary value.
     timeCounter = 0
@@ -34,10 +38,10 @@ def detectMotions(callback):
     cap = cv2.VideoCapture(os.path.join(currentDir, "basementFootage.mp4"));
     #we dont even use this, but im lazy to refactor.
     firstGFrame = None
+    text = "No motion"
     while True:
         ret, currFrame = cap.read()
-        print(ret);
-        text = "No motion"
+
         if ret:
             currFrame = imutils.resize(currFrame, width=500)
             currGFrame = cv2.cvtColor(currFrame,cv2.COLOR_BGR2GRAY)
@@ -53,7 +57,7 @@ def detectMotions(callback):
             frameDelta = cv2.absdiff(cv2.convertScaleAbs(avgFrame), currGFrame)
             thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
             if np.sum(thresh == 255) > 0:
-                text = "Motion detected"
+                
                 if not motionDetected:
                     #send light signal to turn on.
                     now = datetime.datetime.now()
@@ -65,9 +69,10 @@ def detectMotions(callback):
                 timeCounter = 0
 
             if motionDetected:
+                text = "Motion detected"
                 timeCounter += 1
             if timeCounter >= timeout:
-                motionDetected = False
+                text = "No motion"
                 #send signal to dim lights.
                 #turn off counter until lights are turned back on.
                 timeCounter = 0
@@ -84,9 +89,5 @@ def detectMotions(callback):
     cap.release()
     cv2.destroyAllWindows()
 
-def hello(string):
-    print(string);
-
-if __name__ == '__main__':
-    detectMotions(hello);
+motionDetection()
 
