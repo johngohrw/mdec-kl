@@ -1,7 +1,0 @@
-<<<<<<< Updated upstream
-Set light to maximum intensity at time: 21:7:24 22/9/2018
-Set light to maximum intensity at time: 21:7:34 22/9/2018
-=======
-Set light to maximum intensity at time: 4:13:38 23/9/2018
-Set light to dim intensity at time: 4:14:4 23/9/2018
->>>>>>> Stashed changes

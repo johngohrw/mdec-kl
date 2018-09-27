@@ -58,27 +58,16 @@ def motionDetection(callback):
             thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
             if np.sum(thresh == 255) > 0:
                 
-                if not motionDetected:
-                    #send light signal to turn on.
-                    now = datetime.datetime.now()
-                    nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
-                    logFile.write("Set light to maximum intensity at time: " + nowStr +'\n')
-                    callback(nowStr)
-                motionDetected = True
-                #if motion detected, turn lights on. - reset time counter.
-                timeCounter = 0
 
-            if motionDetected:
+                #send light signal to turn on.
+                now = datetime.datetime.now()
+                nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
+                callback(nowStr)
                 text = "Motion detected"
-                timeCounter += 1
-            if timeCounter >= timeout:
+            else :
                 text = "No motion"
-                #send signal to dim lights.
-                #turn off counter until lights are turned back on.
-                timeCounter = 0
-
+ 
             cv2.putText(currFrame, "Obs: {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-
             cv2.imshow("Frame delta", frameDelta)
             cv2.imshow("Original", currFrame)
             cv2.waitKey(5)

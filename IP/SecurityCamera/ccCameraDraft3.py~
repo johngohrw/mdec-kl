@@ -62,7 +62,6 @@ def motionDetection(callback):
                     #send light signal to turn on.
                     now = datetime.datetime.now()
                     nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
-                    logFile.write("Set light to maximum intensity at time: " + nowStr +'\n')
                     callback(nowStr)
                 motionDetected = True
                 #if motion detected, turn lights on. - reset time counter.
