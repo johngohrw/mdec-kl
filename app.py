@@ -11,7 +11,7 @@ import pytesseract
 
 import sys
 sys.path.append("IP/SecurityCamera");
-import ccCameraDraft2
+import ccCameraDraft4
 
 app = Flask(__name__);
 
@@ -72,8 +72,8 @@ def entranceExitDetection():
 
 
 @app.route("/motion")
-def motionDetection():
-    ccCameraDraft2.detectMotions(signalCallback);
+def analyse_footage():
+    ccCameraDraft4.motionDetection(signalCallback);
     return "";
 
 

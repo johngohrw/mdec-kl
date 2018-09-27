@@ -22,7 +22,7 @@ def signalDimIntensity():
 
 def detectMotions(callback):
     print("Sending signal to set lights to max intensity")
-    
+
 def motionDetection(callback):
 
     #set timeout timer.
@@ -77,10 +77,10 @@ def motionDetection(callback):
                 if timeCounter >= timeout and actualMotion:
                     actualMotion = False
                     flipped = True
-                
+
 
             #if flipped, send to dim or send to brighten.
-            if flipped:                
+            if flipped:
                 #callback to brighten lights here.
                 if actualMotion:
                     #send light signal to turn on.
@@ -91,9 +91,9 @@ def motionDetection(callback):
                 else:
                     #we can set a callback to dim lights here as well.
                     #for future reference.
-                    text = "No motion"                    
+                    text = "No motion"
 
-                
+
             cv2.putText(currFrame, "Obs: {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
             flipped = False
             cv2.imshow("Frame delta", frameDelta)
@@ -107,6 +107,6 @@ def motionDetection(callback):
     cv2.destroyAllWindows()
 
 
-
-motionDetection(detectMotions)
+if __name__ == "__main__":
+    motionDetection(detectMotions)
 
