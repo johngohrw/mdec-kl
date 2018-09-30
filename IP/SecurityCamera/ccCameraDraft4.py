@@ -98,7 +98,7 @@ def motionDetection(callback):
             flipped = False
             cv2.imshow("Frame delta", frameDelta)
             cv2.imshow("Original", currFrame)
-            cv2.waitKey(5)
+            cv2.waitKey(1)
         else:
             break
 

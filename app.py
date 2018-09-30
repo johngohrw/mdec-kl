@@ -9,6 +9,8 @@ import cv2
 from PIL import Image
 import pytesseract
 
+from mqtt_client import MQTTClient
+
 import sys
 sys.path.append("IP/SecurityCamera");
 import ccCameraDraft4
@@ -19,6 +21,8 @@ global firebaseApp;
 global firebaseDB;
 global lightEventsRef;
 global carEventsRef;
+global mqttClient;
+global LED_HIGH;
 
 def main():
     # All things global should be defined here
@@ -26,12 +30,17 @@ def main():
     global firebaseDB;
     global lightEventsRef;
     global carEventsRef;
+    global mqttClient;
+    global LED_HIGH;
     cred = credentials.Certificate("mdec-5edc2-firebase-adminsdk-vg9vm-9c5355fe8e.json");
     firebaseApp = firebase_admin.initialize_app(cred);
     firebaseDB = database;
     databaseURL = "https://mdec-5edc2.firebaseio.com/";
     lightEventsRef = database.reference("light/lightEvents", firebaseApp, databaseURL);
     carEventsRef = database.reference("car/carEvents", firebaseApp, databaseURL);
+
+    mqttClient = MQTTClient();
+    LED_HIGH = "D1";
 
 
 def isCapitalized(c):
@@ -43,6 +52,8 @@ def isDigit(c):
 
 
 def signalCallback(datetimeStr):
+    mqttClient.publishData(LED_HIGH);
+
     time, date = datetimeStr.split(" ");
     data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
     carEventsRef.push(data);
@@ -55,7 +66,7 @@ def entranceExitDetection():
     imgPath = os.path.join(currentDir, "IP/carNumberPlate.jpg");
     img = cv2.imread(imgPath);
     cv2.imshow("Image", img);
-    cv2.waitKey(0);
+    cv2.waitKey(1);
 
     config = ("-l eng --oem 1 --psm 6");
     result = pytesseract.image_to_string(Image.open(imgPath), config=config);
@@ -63,6 +74,8 @@ def entranceExitDetection():
     for c in result:
         if isCapitalized(c) or isDigit(c):
             carPlateNum += c;
+
+    mqttClient.publishData(LED_HIGH);
 
     data = { "date": "22-09-2018", "time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
     data["Carplate"] = carPlateNum;

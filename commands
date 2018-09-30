@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SERVER_HOST="localhost"
+SERVER_PORT=5000
+
+case "$1" in
+    boom)
+        curl "http://$SERVER_HOST:$SERVER_PORT/"
+    ;;
+    motion)
+        curl "http://$SERVER_HOST:$SERVER_PORT/motion"
+    ;;
+    test)
+        curl "http://$SERVER_HOST:$SERVER_PORT/test"
+    ;;
+esac
