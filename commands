@@ -13,4 +13,7 @@ case "$1" in
     test)
         curl "http://$SERVER_HOST:$SERVER_PORT/test"
     ;;
+    clear)
+        curl -X DELETE "http://$SERVER_HOST:$SERVER_PORT/firebase_db"
+    ;;
 esac

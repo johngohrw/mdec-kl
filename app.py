@@ -14,7 +14,6 @@ from camera import VideoCamera
 
 import sys
 sys.path.append("IP/SecurityCamera");
-import ccCameraDraft4
 import ccCameraSplit as ccS
 
 app = Flask(__name__);
@@ -99,7 +98,7 @@ def entranceExitDetection():
 
     mqttClient.publishData(LED_HIGH);
 
-    data = { "date": "22-09-2018", "time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
+    data = { "Date": "22-09-2018", "Time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
     data["Carplate"] = carPlateNum;
     carEventsRef.push(data);
 
@@ -132,6 +131,13 @@ def test():
                 lightEventsRef.push(dic);
 
     return "";
+
+
+@app.route("/firebase_db", methods=["DELETE"])
+def clear_db():
+    carEventsRef.delete();
+    lightEventsRef.delete();
+    return "", 204;
 
 
 @app.errorhandler(404)
