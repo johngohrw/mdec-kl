@@ -15,6 +15,7 @@ from camera import VideoCamera
 import sys
 sys.path.append("IP/SecurityCamera");
 import ccCameraDraft4
+import ccCameraSplit as ccS
 
 app = Flask(__name__);
 
@@ -63,13 +64,17 @@ def signalCallback(signal, datetimeStr):
 
     time, date = datetimeStr.split(" ");
     data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
+    print("Callback detected: ");
+    print(signal);
     carEventsRef.push(data);
 
 
 def genFrame(camera):
+    mdEnt = ccS.MDEntity(signalCallback);
     while True:
         frame = camera.get_frame();
         # pass frame to wei tan here
+        mdEnt.processImage(frame);
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame.tobytes() + b'\r\n\r\n');
 
@@ -108,7 +113,7 @@ def livestream_page():
 def analyse_footage():
     currentDir = os.path.dirname(os.path.realpath(__file__));
     videoPath = os.path.join(currentDir, "IP/SecurityCamera/basementFootage.mp4");
-    return Response(genFrame(VideoCamera(videoPath)),
+    return Response(genFrame(VideoCamera()),
             mimetype='multipart/x-mixed-replace; boundary=frame');
     #ccCameraDraft4.motionDetection(signalCallback);
 
