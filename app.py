@@ -110,9 +110,22 @@ def livestream_page():
     return render_template('index.html');
 
 
+@app.route("/car_test")
+def carvideo_page():
+    return render_template('car.html');
+
+
 @app.route("/motion")
 def analyse_footage():
     return Response(genFrame(VideoCamera()),
+            mimetype='multipart/x-mixed-replace; boundary=frame');
+
+
+@app.route("/car_video")
+def analyse_car_video():
+    currentDir = os.path.dirname(os.path.realpath(__file__));
+    videoPath = os.path.join(currentDir, "IP/SecurityCamera/basementFootage.mp4");
+    return Response(genFrame(VideoCamera(videoPath)),
             mimetype='multipart/x-mixed-replace; boundary=frame');
 
 
