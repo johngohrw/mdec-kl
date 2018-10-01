@@ -86,12 +86,14 @@ def motionDetection(callback):
                     #send light signal to turn on.
                     now = datetime.datetime.now()
                     nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
-                    callback(nowStr)
+                    callback(1, nowStr)
                     text = "Motion detected"
                 else:
                     #we can set a callback to dim lights here as well.
                     #for future reference.
                     text = "No motion"
+                    callback(0, nowStr)
+
 
 
             cv2.putText(currFrame, "Obs: {}".format(text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)

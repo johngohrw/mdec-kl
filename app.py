@@ -23,6 +23,7 @@ global lightEventsRef;
 global carEventsRef;
 global mqttClient;
 global LED_HIGH;
+global LED_LOW;
 
 def main():
     # All things global should be defined here
@@ -32,6 +33,7 @@ def main():
     global carEventsRef;
     global mqttClient;
     global LED_HIGH;
+    global LED_LOW;
     cred = credentials.Certificate("mdec-5edc2-firebase-adminsdk-vg9vm-9c5355fe8e.json");
     firebaseApp = firebase_admin.initialize_app(cred);
     firebaseDB = database;
@@ -41,6 +43,7 @@ def main():
 
     mqttClient = MQTTClient();
     LED_HIGH = "D1";
+    LED_LOW = "D2";
 
 
 def isCapitalized(c):
@@ -51,8 +54,11 @@ def isDigit(c):
     return ord(c) >= 48 and ord(c) <= 57;
 
 
-def signalCallback(datetimeStr):
-    mqttClient.publishData(LED_HIGH);
+def signalCallback(signal, datetimeStr):
+    if signal == 0:
+        mqttClient.publishData(LED_LOW);
+    else:
+        mqttClient.publishData(LED_HIGH);
 
     time, date = datetimeStr.split(" ");
     data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
