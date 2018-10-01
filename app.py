@@ -63,7 +63,7 @@ def signalCallback(signal, datetimeStr):
         mqttClient.publishData(LED_HIGH);
 
     time, date = datetimeStr.split(" ");
-    data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
+    data = { "Date": date, "Time": time, "Log": 400, "Event": "Motion"};
     print("Callback detected: ");
     print(signal);
     carEventsRef.push(data);
@@ -73,10 +73,12 @@ def genFrame(camera):
     mdEnt = ccS.MDEntity(signalCallback);
     while True:
         frame = camera.get_frame();
-        # pass frame to wei tan here
-        mdEnt.processImage(frame);
+        message = mdEnt.processImage(frame);
+        cv2.putText(frame, "Obs: {}".format(message), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        _, jpeg = cv2.imencode('.jpg', frame);
+
         yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame.tobytes() + b'\r\n\r\n');
+               b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n\r\n');
 
 
 @app.route("/")
@@ -111,11 +113,8 @@ def livestream_page():
 
 @app.route("/motion")
 def analyse_footage():
-    currentDir = os.path.dirname(os.path.realpath(__file__));
-    videoPath = os.path.join(currentDir, "IP/SecurityCamera/basementFootage.mp4");
     return Response(genFrame(VideoCamera()),
             mimetype='multipart/x-mixed-replace; boundary=frame');
-    #ccCameraDraft4.motionDetection(signalCallback);
 
 
 @app.route("/test")

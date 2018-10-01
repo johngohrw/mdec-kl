@@ -34,7 +34,7 @@ class MDEntity:
         if self.firstGFrame is None:
             self.firstGFrame = currGFrame
             self.avgFrame = currGFrame.copy().astype("float")
-            return 
+            return
         cv2.accumulateWeighted(currGFrame, self.avgFrame,0.2)
         frameDelta = cv2.absdiff(cv2.convertScaleAbs(self.avgFrame), currGFrame)
         thresh = cv2.threshold(frameDelta, 25, 255, cv2.THRESH_BINARY)[1]
@@ -55,10 +55,10 @@ class MDEntity:
             if self.timeCounter >= self.timeout and self.actualMotion:
                 self.actualMotion = False
                 self.flipped = True
-            
+
 
         #if flipped, send to dim or send to brighten.
-        if self.flipped:                
+        if self.flipped:
             #callback to brighten lights here.
             if self.actualMotion:
                 #send light signal to turn on.
@@ -69,11 +69,15 @@ class MDEntity:
             else:
                 #we can set a callback to dim lights here as well.
                 #for future reference.
+                now = datetime.datetime.now()
+                nowStr = str(now.hour) +":" + str(now.minute) + ":"+str(now.second) + " "+ str(now.day) + "/" + str(now.month) + "/" + str(now.year)
                 self.text = "No motion"
                 self.cb(0, nowStr)
 
-            
+
         #cv2.putText(currFrame, "Obs: {}".format(self.text), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
         self.flipped = False
-    
-        
+
+        return self.text;
+
+
