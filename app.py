@@ -1,4 +1,5 @@
 import os
+import argparse as ap
 
 from flask import *
 import firebase_admin
@@ -20,6 +21,7 @@ app = Flask(__name__);
 
 global firebaseApp;
 global firebaseDB;
+global dbPush;
 global lightEventsRef;
 global carEventsRef;
 global mqttClient;
@@ -56,16 +58,26 @@ def isDigit(c):
 
 
 def signalCallback(signal, datetimeStr):
+    time, date = datetimeStr.split(" ");
+
+    intensity = "100%" if signal == 1 else "50%";
+    causeOfMotion = "Vehicle" if signal == 1 else "null";
+    lightData = { "Date": date, "Time": time, "Log": 444, "Light_ID": "L15", "Light_intensity": intensity, "Caused_by_motion": "null", "Energy_type": "Brown"};
+
+    if dbPush:
+        lightEventsRef.push(lightData);
+
     if signal == 0:
         mqttClient.publishData(LED_LOW);
     else:
         mqttClient.publishData(LED_HIGH);
 
-    time, date = datetimeStr.split(" ");
     data = { "Date": date, "Time": time, "Log": 400, "Event": "Motion"};
     print("Callback detected: ");
     print(signal);
-    carEventsRef.push(data);
+
+    if dbPush:
+        carEventsRef.push(data);
 
 
 def genFrame(camera):
@@ -164,6 +176,12 @@ def method_not_allowed(error):
 
 
 if __name__ == "__main__":
+    global dbPush;
+    parser = ap.ArgumentParser();
+    parser.add_argument("-m", type=int, default=1, help="To push(1) or not to push(0) to Firebase DB");
+    args = parser.parse_args();
+    dbPush = args.m;
+
     main();
     app.run();
 
