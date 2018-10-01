@@ -1,4 +1,5 @@
 import os
+import argparse as ap
 
 from flask import *
 import firebase_admin
@@ -14,12 +15,13 @@ from camera import VideoCamera
 
 import sys
 sys.path.append("IP/SecurityCamera");
-import ccCameraDraft4
+import ccCameraSplit as ccS
 
 app = Flask(__name__);
 
 global firebaseApp;
 global firebaseDB;
+global dbPush;
 global lightEventsRef;
 global carEventsRef;
 global mqttClient;
@@ -56,22 +58,38 @@ def isDigit(c):
 
 
 def signalCallback(signal, datetimeStr):
+    time, date = datetimeStr.split(" ");
+
+    intensity = "100%" if signal == 1 else "50%";
+    causeOfMotion = "Vehicle" if signal == 1 else "null";
+    lightData = { "Date": date, "Time": time, "Log": 444, "Light_ID": "L15", "Light_intensity": intensity, "Caused_by_motion": "null", "Energy_type": "Brown"};
+
+    if dbPush:
+        lightEventsRef.push(lightData);
+
     if signal == 0:
         mqttClient.publishData(LED_LOW);
     else:
         mqttClient.publishData(LED_HIGH);
 
-    time, date = datetimeStr.split(" ");
-    data = { "date": date, "time": time, "Log": 400, "Event": "Motion"};
-    carEventsRef.push(data);
+    data = { "Date": date, "Time": time, "Log": 400, "Event": "Motion"};
+    print("Callback detected: ");
+    print(signal);
+
+    if dbPush:
+        carEventsRef.push(data);
 
 
 def genFrame(camera):
+    mdEnt = ccS.MDEntity(signalCallback);
     while True:
         frame = camera.get_frame();
-        # pass frame to wei tan here
+        message = mdEnt.processImage(frame);
+        cv2.putText(frame, "Obs: {}".format(message), (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        _, jpeg = cv2.imencode('.jpg', frame);
+
         yield (b'--frame\r\n'
-               b'Content-Type: image/jpeg\r\n\r\n' + frame.tobytes() + b'\r\n\r\n');
+               b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n\r\n');
 
 
 @app.route("/")
@@ -92,7 +110,7 @@ def entranceExitDetection():
 
     mqttClient.publishData(LED_HIGH);
 
-    data = { "date": "22-09-2018", "time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
+    data = { "Date": "22-09-2018", "Time": "08:22:08", "Log": 319, "Carplate": "WPR9070", "Event": "Entry"};
     data["Carplate"] = carPlateNum;
     carEventsRef.push(data);
 
@@ -104,13 +122,23 @@ def livestream_page():
     return render_template('index.html');
 
 
+@app.route("/car_test")
+def carvideo_page():
+    return render_template('car.html');
+
+
 @app.route("/motion")
 def analyse_footage():
+    return Response(genFrame(VideoCamera()),
+            mimetype='multipart/x-mixed-replace; boundary=frame');
+
+
+@app.route("/car_video")
+def analyse_car_video():
     currentDir = os.path.dirname(os.path.realpath(__file__));
     videoPath = os.path.join(currentDir, "IP/SecurityCamera/basementFootage.mp4");
     return Response(genFrame(VideoCamera(videoPath)),
             mimetype='multipart/x-mixed-replace; boundary=frame');
-    #ccCameraDraft4.motionDetection(signalCallback);
 
 
 @app.route("/test")
@@ -130,6 +158,13 @@ def test():
     return "";
 
 
+@app.route("/firebase_db", methods=["DELETE"])
+def clear_db():
+    carEventsRef.delete();
+    lightEventsRef.delete();
+    return "", 204;
+
+
 @app.errorhandler(404)
 def not_found(error):
     return "404 NOT FOUND!", 404;
@@ -141,6 +176,12 @@ def method_not_allowed(error):
 
 
 if __name__ == "__main__":
+    global dbPush;
+    parser = ap.ArgumentParser();
+    parser.add_argument("-m", type=int, default=1, help="To push(1) or not to push(0) to Firebase DB");
+    args = parser.parse_args();
+    dbPush = args.m;
+
     main();
     app.run();
 

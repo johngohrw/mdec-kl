@@ -50,7 +50,10 @@ int value = 0;
 
 void setup() {
   pinMode(LED1, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
+  pinMode(BUILTIN_LED, OUTPUT);
   analogWrite(LED1, 512);
+  digitalWrite(BUILTIN_LED, HIGH); // No light
+  
   Serial.begin(115200);
   setup_wifi();
   client.setServer(mqtt_server, 1883);
@@ -72,6 +75,7 @@ void setup_wifi() {
     Serial.print(".");
   }
 
+  digitalWrite(BUILTIN_LED, LOW); // We are connected, turn on the BUILTIN LED
   Serial.println("");
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
@@ -126,12 +130,14 @@ void reconnect() {
     clientId += String(random(0xffff), HEX);
     // Attempt to connect
     if (client.connect(clientId.c_str())) {
+      digitalWrite(BUILTIN_LED, LOW); // Connected to WIFI successfully, BUILDIN LED on    
       Serial.println("connected");
       // Once connected, publish an announcement...
       client.publish(pubTopic, "Hello world from NodeMCU!");
       // ... and resubscribe
       client.subscribe(subTopic);
     } else {
+      digitalWrite(BUILTIN_LED, HIGH); // Failed to connect to WIFI, BUILTIN LED off
       Serial.print("failed, rc=");
       Serial.print(client.state());
       Serial.println(" try again in 5 seconds");
