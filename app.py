@@ -10,6 +10,7 @@ from PIL import Image
 import pytesseract
 
 from mqtt_client import MQTTClient
+from camera import VideoCamera
 
 import sys
 sys.path.append("IP/SecurityCamera");
@@ -65,6 +66,14 @@ def signalCallback(signal, datetimeStr):
     carEventsRef.push(data);
 
 
+def genFrame(camera):
+    while True:
+        frame = camera.get_frame();
+        # pass frame to wei tan here
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame.tobytes() + b'\r\n\r\n');
+
+
 @app.route("/")
 def entranceExitDetection():
     # FIXME: Hardcoded Image path
@@ -90,10 +99,18 @@ def entranceExitDetection():
     return "";
 
 
+@app.route("/live_test")
+def livestream_page():
+    return render_template('index.html');
+
+
 @app.route("/motion")
 def analyse_footage():
-    ccCameraDraft4.motionDetection(signalCallback);
-    return "";
+    currentDir = os.path.dirname(os.path.realpath(__file__));
+    videoPath = os.path.join(currentDir, "IP/SecurityCamera/basementFootage.mp4");
+    return Response(genFrame(VideoCamera(videoPath)),
+            mimetype='multipart/x-mixed-replace; boundary=frame');
+    #ccCameraDraft4.motionDetection(signalCallback);
 
 
 @app.route("/test")
