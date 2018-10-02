@@ -168,7 +168,55 @@ document.addEventListener("DOMContentLoaded", function(event) {
         
     });
 
+    setInterval(()=> {
+        console.log('lightwaaaaaaaaave')
+        lightWave()
+    }, 10000)
+
 });
+
+
+const lightWave = () => {
+    let i = 1
+    const lightWaveAux = () => {
+        if (i < 21) {
+            let id = 'lb' + i;
+            toggleLights(id)
+        } else {
+            clearMe()
+            console.log('cleared!')
+        }
+        i += 1
+    }
+    const clearMe = () => {
+        clearInterval(damnlights)
+    }
+    const damnlights = setInterval(lightWaveAux, 300)
+}
+
+
+
+const toggleLights = (id='none') => {
+    if (id == 'none'){
+        $('.lightson').addClass('templights')
+        $('.lightson').removeClass('lightson')
+        $('.lightsoff').addClass('lightson')
+        $('.lightsoff').removeClass('lightsoff')
+        $('.templights').addClass('lightsoff')
+        $('.templights').removeClass('templights')
+    } else {
+        let lol1 = '.lightson#' + id;
+        let lol2 = '.lightsoff#' + id;
+        let lol3 = '.templights#' + id;
+        $(lol1).addClass('templights')
+        $(lol1).removeClass('lightson')
+        $(lol2).addClass('lightson')
+        $(lol2).removeClass('lightsoff')
+        $(lol3).addClass('lightsoff')
+        $(lol3).removeClass('templights')
+    }
+}
+
 
 
 

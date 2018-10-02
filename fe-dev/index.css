@@ -197,10 +197,10 @@ body {
     height: 80% !important;
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 22%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
@@ -211,5 +211,14 @@ body {
     background-color: yellow;
     border: 1px solid gray;
     border-radius: 50%;
-    box-shadow: 0 0 100px 30px yellow;
+}
+
+.lightson {
+    box-shadow: 0 0 80px 10px yellow;
+    
+}
+
+.lightsoff {
+    box-shadow: none;
+    background-color: gray;
 }
