@@ -193,11 +193,11 @@ body {
 }
 
 .lighting-grid {
-    width: 80% !important;
+    width: 60% !important;
     height: 80% !important;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
